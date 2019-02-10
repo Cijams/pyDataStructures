@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pyDataStructures.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pyDataStructures.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/PyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/PyLinkedList.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,68 +17,60 @@
     <session id="1422906102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="10" />
+          <entry key="py" value="11" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="12" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="md" value="281" />
-          <entry key="py" value="1650" />
+          <entry key="md" value="358" />
+          <entry key="py" value="1829" />
           <entry key="r" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="281" />
+          <entry key="Markdown" value="358" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="1662" />
+          <entry key="Python" value="1841" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="450">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
               <folding>
-                <marker date="1549758517986" expanded="true" signature="19:24" ph="..." />
-                <marker date="1549758517986" expanded="true" signature="103:208" ph="..." />
-                <marker date="1549758517986" expanded="true" signature="223:228" ph="..." />
-                <marker date="1549758517986" expanded="true" signature="278:283" ph="..." />
-                <marker date="1549758517986" expanded="true" signature="278:287" ph="..." />
-                <marker date="1549758517986" expanded="true" signature="375:414" ph="..." />
-                <marker date="1549758517986" expanded="true" signature="433:477" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="19:24" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="327:333" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="365:372" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="366:368" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="383:388" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="438:443" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="438:447" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="535:574" ph="..." />
+                <marker date="1549771404058" expanded="true" signature="593:637" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="550">
-                <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -83,60 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Queue/PyQueue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <marker date="1549757123968" expanded="true" signature="14:19" ph="..." />
-                <marker date="1549757123968" expanded="true" signature="89:130" ph="..." />
-                <marker date="1549757123968" expanded="true" signature="208:214" ph="..." />
-                <marker date="1549757123968" expanded="true" signature="229:295" ph="..." />
-                <marker date="1549757123968" expanded="true" signature="310:347" ph="..." />
-                <marker date="1549757123968" expanded="true" signature="366:417" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stack/PyStack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Queue/PyQueueTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1549757270559" expanded="true" signature="476:481" ph="..." />
-                <marker date="1549757270559" expanded="true" signature="505:629" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Stack/pyStackTest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+            <state relative-caret-position="300">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -168,17 +111,17 @@
         <option value="$PROJECT_DIR$/Stack/PyStack.py" />
         <option value="$PROJECT_DIR$/Queue/PyQueue.py" />
         <option value="$PROJECT_DIR$/Queue/PyQueueTest.py" />
+        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LinkedList/PyLinkedListTest.py" />
         <option value="$PROJECT_DIR$/LinkedList/PyLinkedList.py" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="529" />
-    <option name="y" value="143" />
-    <option name="width" value="1562" />
-    <option name="height" value="1302" />
+    <option name="x" value="261" />
+    <option name="y" value="202" />
+    <option name="width" value="1495" />
+    <option name="height" value="1153" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -333,9 +276,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_pyStackTest_MyTestCase_test_push_peek - 2019.02.09 at 16h 07m 55s.xml">
-      <configuration name="Unittests for pyStackTest.MyTestCase.test_push_peek" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_pyStackTest_py - 2019.02.09 at 16h 07m 58s.xml">
       <configuration name="Unittests in pyStackTest.py" configurationId="tests" />
     </history-entry>
@@ -363,25 +303,28 @@
     <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.09 at 16h 17m 47s.xml">
       <configuration name="Unittests in PyLinkedListTest.py" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.09 at 17h 58m 39s.xml">
+      <configuration name="Unittests in PyLinkedListTest.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="286" y="216" width="1562" height="1302" extended-state="0" />
+    <frame x="261" y="202" width="1495" height="1153" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2027559" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21207961" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36215752" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36211973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -391,20 +334,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/r">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/t.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/r" />
+    <entry file="file://$PROJECT_DIR$/t.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
@@ -416,9 +347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -426,11 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1549757270559" expanded="true" signature="476:481" ph="..." />
-            <marker date="1549757270559" expanded="true" signature="505:629" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -445,21 +368,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <marker date="1549757123968" expanded="true" signature="14:19" ph="..." />
-            <marker date="1549757123968" expanded="true" signature="89:130" ph="..." />
-            <marker date="1549757123968" expanded="true" signature="208:214" ph="..." />
-            <marker date="1549757123968" expanded="true" signature="229:295" ph="..." />
-            <marker date="1549757123968" expanded="true" signature="310:347" ph="..." />
-            <marker date="1549757123968" expanded="true" signature="366:417" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="420">
+            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="300">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -468,27 +393,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="450">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
-            <marker date="1549758517986" expanded="true" signature="19:24" ph="..." />
-            <marker date="1549758517986" expanded="true" signature="103:208" ph="..." />
-            <marker date="1549758517986" expanded="true" signature="223:228" ph="..." />
-            <marker date="1549758517986" expanded="true" signature="278:283" ph="..." />
-            <marker date="1549758517986" expanded="true" signature="278:287" ph="..." />
-            <marker date="1549758517986" expanded="true" signature="375:414" ph="..." />
-            <marker date="1549758517986" expanded="true" signature="433:477" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="19:24" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="327:333" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="365:372" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="366:368" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="383:388" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="438:443" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="438:447" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="535:574" ph="..." />
+            <marker date="1549771404058" expanded="true" signature="593:637" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="550">
-            <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

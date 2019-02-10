@@ -2,12 +2,28 @@ class PyLinkedList:
     def __init__(self):
         self.head = self.Node(None)
 
-    def link(self, d):
-        temp = self.Node(d)
-        print(temp.data)
+    def add(self):
+        pass
+        # True/False return
 
-    def get_link(self):
-        print(self.head)
+    def add_first(self):
+        pass
+
+    def add_last(self):
+        pass
+
+    def contains(self):
+        pass
+
+    def get(self):
+        pass
+
+    def get_first(self):
+        pass
+
+    def get_last(self):
+        pass
+
 
     class Node:
         def __init__(self, data=None, next_node=None):
