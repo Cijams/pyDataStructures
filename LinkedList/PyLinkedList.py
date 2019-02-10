@@ -2,8 +2,31 @@ class PyLinkedList:
     def __init__(self):
         self.head = self.Node(None)
 
-    def add(self):
-        pass
+    def add(self, data=None):
+        if not self.head.data:
+            self.head.data = data
+            return "First Time"
+        else:
+            count = 0
+            print(self.head.data)
+            print(self.head.get_next())
+            print(self.head.set_next(data))
+            print(self.head.get_next())
+            self.head = self.head.get_next
+            print(self.head.data)
+            """
+            while self.head.get_next() is not None:
+                count = count+1
+                print(self.head.get_data())
+                self.head = self.head.get_next
+                print("yep")
+            self.head.get_next = self.Node(data)
+            """
+            return count
+
+
+
+
         # True/False return
 
     def add_first(self):
@@ -23,7 +46,6 @@ class PyLinkedList:
 
     def get_last(self):
         pass
-
 
     class Node:
         def __init__(self, data=None, next_node=None):
