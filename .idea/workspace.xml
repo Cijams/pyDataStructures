@@ -1,10 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Queue/PyQueue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Queue/PyQueueTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/PyStack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyStackTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/pyStackTest.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1422906102">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="8" />
+          <entry key="r" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="1" />
+          <entry key="py" value="1095" />
+          <entry key="r" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="1107" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Queue/PyQueue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <marker date="1549757123968" expanded="true" signature="14:19" ph="..." />
+                <marker date="1549757123968" expanded="true" signature="89:130" ph="..." />
+                <marker date="1549757123968" expanded="true" signature="208:214" ph="..." />
+                <marker date="1549757123968" expanded="true" signature="229:295" ph="..." />
+                <marker date="1549757123968" expanded="true" signature="310:347" ph="..." />
+                <marker date="1549757123968" expanded="true" signature="366:417" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stack/PyStack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Queue/PyQueueTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="632">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1549757270559" expanded="true" signature="476:481" ph="..." />
+                <marker date="1549757270559" expanded="true" signature="505:629" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stack/pyStackTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Python Unit Test" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/t.py" />
+        <option value="$PROJECT_DIR$/r" />
+        <option value="$PROJECT_DIR$/pyStack.py" />
+        <option value="$PROJECT_DIR$/pyStackTest.py" />
+        <option value="$PROJECT_DIR$/Stack/pyStackTest.py" />
+        <option value="$PROJECT_DIR$/Stack/PyStack.py" />
+        <option value="$PROJECT_DIR$/Queue/PyQueue.py" />
+        <option value="$PROJECT_DIR$/Queue/PyQueueTest.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="431" />
     <option name="y" value="77" />
     <option name="width" value="2859" />
     <option name="height" value="1418" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -16,58 +164,246 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.r">
-    <configuration name="r" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chris\Documents\GitHub\pyDataStructures\Stack" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in PyQueueTest.py">
+    <configuration name="Unittests for PyQueueTest.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/r" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PyQueueTest.MyTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for PyQueueTest.MyTestCase.test_clear" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PyQueueTest.MyTestCase.test_clear&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for pyStackTest.MyTestCase.test_push_peek" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;pyStackTest.MyTestCase.test_push_peek&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in PyQueueTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Queue/PyQueueTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in pyStackTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Stack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Stack/pyStackTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.t" />
-      <item itemvalue="Python.r" />
+      <item itemvalue="Python tests.Unittests in PyQueueTest.py" />
+      <item itemvalue="Python tests.Unittests for PyQueueTest.MyTestCase.test_clear" />
+      <item itemvalue="Python tests.Unittests for PyQueueTest.MyTestCase" />
+      <item itemvalue="Python tests.Unittests for pyStackTest.MyTestCase.test_push_peek" />
+      <item itemvalue="Python tests.Unittests in pyStackTest.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.r" />
-        <item itemvalue="Python.t" />
+        <item itemvalue="Python tests.Unittests in PyQueueTest.py" />
+        <item itemvalue="Python tests.Unittests in pyStackTest.py" />
+        <item itemvalue="Python tests.Unittests for pyStackTest.MyTestCase.test_push_peek" />
+        <item itemvalue="Python tests.Unittests for PyQueueTest.MyTestCase.test_clear" />
+        <item itemvalue="Python tests.Unittests for PyQueueTest.MyTestCase" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="" />
+      <created>1549753635529</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549753635529</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_PyQueueTest_py - 2019.02.09 at 16h 05m 32s.xml">
+      <configuration name="Unittests in PyQueueTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyQueueTest_MyTestCase_test_size - 2019.02.09 at 16h 05m 58s.xml">
+      <configuration name="Unittests for PyQueueTest.MyTestCase.test_size" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PyQueueTest_py - 2019.02.09 at 16h 06m 01s.xml">
+      <configuration name="Unittests in PyQueueTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyQueueTest_MyTestCase_test_deque - 2019.02.09 at 16h 06m 47s.xml">
+      <configuration name="Unittests for PyQueueTest.MyTestCase.test_deque" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyQueueTest_MyTestCase - 2019.02.09 at 16h 07m 09s.xml">
+      <configuration name="Unittests for PyQueueTest.MyTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PyQueueTest_py - 2019.02.09 at 16h 07m 32s.xml">
+      <configuration name="Unittests in PyQueueTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyQueueTest_MyTestCase_test_clear - 2019.02.09 at 16h 07m 50s.xml">
+      <configuration name="Unittests for PyQueueTest.MyTestCase.test_clear" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_pyStackTest_MyTestCase_test_push_peek - 2019.02.09 at 16h 07m 55s.xml">
+      <configuration name="Unittests for pyStackTest.MyTestCase.test_push_peek" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_pyStackTest_py - 2019.02.09 at 16h 07m 58s.xml">
+      <configuration name="Unittests in pyStackTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PyQueueTest_py - 2019.02.09 at 16h 08m 01s.xml">
+      <configuration name="Unittests in PyQueueTest.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="431" y="77" width="2859" height="1418" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24991138" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32943925" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995327" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/r">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/t.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="685" selection-start-line="685" selection-end-line="685" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack/pyStackTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/PyQueueTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1549757270559" expanded="true" signature="476:481" ph="..." />
+            <marker date="1549757270559" expanded="true" signature="505:629" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack/PyStack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/PyQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <marker date="1549757123968" expanded="true" signature="14:19" ph="..." />
+            <marker date="1549757123968" expanded="true" signature="89:130" ph="..." />
+            <marker date="1549757123968" expanded="true" signature="208:214" ph="..." />
+            <marker date="1549757123968" expanded="true" signature="229:295" ph="..." />
+            <marker date="1549757123968" expanded="true" signature="310:347" ph="..." />
+            <marker date="1549757123968" expanded="true" signature="366:417" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

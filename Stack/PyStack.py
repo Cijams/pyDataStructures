@@ -1,4 +1,4 @@
-class pyStack:
+class PyStack:
     def __init__(self):
         self.stack = []
 
@@ -16,3 +16,6 @@ class pyStack:
 
     def size(self):
         return len(self.stack)
+
+    def clear(self):
+        self.stack.clear()

@@ -1,9 +1,13 @@
 import unittest
-import pyStack
+import random
+from Stack import PyStack
+
+ps = PyStack.PyStack()
 
 
 class MyTestCase(unittest.TestCase):
     def test_push_peek(self):
+
         ps.push(5)
         self.assertEqual(ps.peek(), 5)
         ps.push(3)
@@ -14,7 +18,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(ps.peek(), "Go")
 
         ps.pop()
-        #print(ps.peek())
 
     def test_pop(self):
         ps.push(1)
@@ -42,8 +45,14 @@ class MyTestCase(unittest.TestCase):
             ps.push(i)
         self.assertEqual(ps.size(), 10)
 
+    def test_clear(self):
+        ps.clear()
+        for x in range(0, 15):
+            ps.push(random.randint(0, 100))
+        self.assertEqual(ps.size(), 15)
+        ps.clear()
+        self.assertEqual(ps.size(), 0)
 
 
 if __name__ == '__main__':
-    ps = pyStack.pyStack()
     unittest.main()
