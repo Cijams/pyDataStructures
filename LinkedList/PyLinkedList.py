@@ -49,8 +49,14 @@ class PyLinkedList:
         node_list.reverse()
         return node_list
 
-    def remove(self):
-        pass
+    def remove(self, data):
+        temp = self.head
+        while temp is not None:
+            if temp.get_next().get_data() == data:
+                try:
+                    temp.set_next(temp.get_next().get_next())
+                except:
+                    pass
 
     def reverse(self):
         pass
@@ -59,7 +65,7 @@ class PyLinkedList:
         pass
 
     def clear(self):
-        pass
+        self.head = None
 
     class Node:
         def __init__(self, _data=None):

@@ -1,8 +1,11 @@
 import unittest
-from LinkedList import PyLinkedList
+import random
+#from LinkedList import PyLinkedList
+from .PyLinkedList import PyLinkedList
 
 
-pl = PyLinkedList.PyLinkedList()
+#pl = PyLinkedList.PyLinkedList()
+pl = PyLinkedList()
 
 
 class MyTestCase(unittest.TestCase):
@@ -23,6 +26,16 @@ class MyTestCase(unittest.TestCase):
 
         self.assertEqual(pl.get_first(), 1)
         self.assertEqual(pl.get_last(), 5)
+
+    def test_two(self):
+        for _ in range(0, 10):
+            pl.add(random.randint(0, 100))
+        print(pl.iterate())
+        print(pl.clear())
+        print(pl.iterate())
+
+        pl.remove(5)
+        print(pl.iterate())
 
 
 if __name__ == '__main__':

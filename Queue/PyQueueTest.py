@@ -1,6 +1,6 @@
 import unittest
 import random
-from Queue import PyQueue
+from .PyQueue import PyQueue
 
 pq = PyQueue.PyQueue()
 
