@@ -3,60 +3,65 @@ class PyLinkedList:
         self.head = head
 
     def add(self, data=None):
-        temp_node = self.Node(data)
-        temp_node.set_next(self.head)
-        self.head = temp_node
+        curr_node = self.Node(data)
+        curr_node.set_next(self.head)
+        self.head = curr_node
 
     def size(self):
         count = 0
-        temp = self.head
-        while temp is not None:
-            temp = temp.get_next()
+        curr = self.head
+        while curr:
+            curr = curr.get_next()
             count = count + 1
         return count
 
     def contains(self, data):
-        temp = self.head
-        while temp is not None:
-            if temp.get_data() == data:
+        curr = self.head
+        while curr:
+            if curr.get_data() == data:
                 return True
-            temp = temp.get_next()
+            curr = curr.get_next()
         return False
 
     def get(self, data):
-        temp = self.head
-        while temp is not None:
-            if temp.get_data() == data:
-                return temp
-            temp = temp.get_next()
+        curr = self.head
+        while curr:
+            if curr.get_data() == data:
+                return curr
+            curr = curr.get_next()
         return None
 
     def get_first(self):
-        temp = self.head
-        while temp.get_next() is not None:
-            temp = temp.get_next()
-        return temp.get_data()
+        curr = self.head
+        while curr.get_next():
+            curr = curr.get_next()
+        return curr.get_data()
 
     def get_last(self):
         return self.head.get_data()
 
     def iterate(self):
         node_list = []
-        temp = self.head
-        while temp is not None:
-            node_list.append(temp.get_data())
-            temp = temp.get_next()
+        curr = self.head
+        while curr:
+            node_list.append(curr.get_data())
+            curr = curr.get_next()
         node_list.reverse()
         return node_list
 
     def remove(self, data):
-        temp = self.head
-        while temp is not None:
-            if temp.get_next().get_data() == data:
-                try:
-                    temp.set_next(temp.get_next().get_next())
-                except:
-                    pass
+        curr = self.head
+        try:
+            if curr.get_data() == data:
+                self.head = self.head.get_next()
+                return True
+            while curr:
+                if curr.get_next().get_data() == data:
+                    curr.set_next(curr.get_next().get_next())
+                    return True
+                curr = curr.get_next()
+        except AttributeError:
+            return False
 
     def reverse(self):
         pass

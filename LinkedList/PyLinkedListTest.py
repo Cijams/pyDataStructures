@@ -31,10 +31,22 @@ class MyTestCase(unittest.TestCase):
         for _ in range(0, 10):
             pl.add(random.randint(0, 100))
         print(pl.iterate())
-        print(pl.clear())
+        pl.clear()
+        print(pl.iterate())
+        print("_______________________________")
+        for _ in range(0, 10):
+            pl.add(_)
+        print(pl.iterate())
+        pl.remove(9)
+        print(pl.iterate())
+        pl.remove(5)
+        print(pl.iterate())
+        pl.remove(0)
         print(pl.iterate())
 
-        pl.remove(5)
+        for _ in range(0, 10):
+            pl.remove(_)
+
         print(pl.iterate())
 
 
