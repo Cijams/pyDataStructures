@@ -23,14 +23,22 @@ class PyLinkedList:
             temp = temp.get_next()
         return False
 
-    def get(self):
-        pass
+    def get(self, data):
+        temp = self.head
+        while temp is not None:
+            if temp.get_data() == data:
+                return temp
+            temp = temp.get_next()
+        return None
 
     def get_first(self):
-        pass
+        temp = self.head
+        while temp.get_next() is not None:
+            temp = temp.get_next()
+        return temp.get_data()
 
     def get_last(self):
-        pass
+        return self.head.get_data()
 
     def iterate(self):
         node_list = []
@@ -40,6 +48,18 @@ class PyLinkedList:
             temp = temp.get_next()
         node_list.reverse()
         return node_list
+
+    def remove(self):
+        pass
+
+    def reverse(self):
+        pass
+
+    def index_of(self):
+        pass
+
+    def clear(self):
+        pass
 
     class Node:
         def __init__(self, _data=None):
