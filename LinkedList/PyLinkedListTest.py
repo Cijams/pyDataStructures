@@ -1,11 +1,11 @@
 import unittest
 import random
-#from LinkedList import PyLinkedList
-from .PyLinkedList import PyLinkedList
+from LinkedList import PyLinkedList
+#from .PyLinkedList import PyLinkedList -
 
 
-#pl = PyLinkedList.PyLinkedList()
-pl = PyLinkedList()
+pl = PyLinkedList.PyLinkedList()
+#pl = PyLinkedList() -
 
 
 class MyTestCase(unittest.TestCase):
@@ -36,6 +36,11 @@ class MyTestCase(unittest.TestCase):
         print("_______________________________")
         for _ in range(0, 10):
             pl.add(_)
+
+        print("_")
+        print(pl.index_of(2))
+        print("_")
+
         print(pl.iterate())
         pl.remove(9)
         print(pl.iterate())
@@ -46,8 +51,17 @@ class MyTestCase(unittest.TestCase):
 
         for _ in range(0, 10):
             pl.remove(_)
-
         print(pl.iterate())
+        print(pl.index_of(2))
+
+        for _ in range(1, 11):
+            pl.add(_)
+        print(pl.iterate())
+        print(pl.middle())
+        pl.add(12432)
+        print(pl.middle())
+
+
 
 
 if __name__ == '__main__':
