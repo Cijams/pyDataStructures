@@ -61,7 +61,20 @@ class MyTestCase(unittest.TestCase):
         pl.add(12432)
         print(pl.middle())
 
+        pl.clear()
 
+        for _ in range(0, 1000):
+            pl.add(random.randint(0, 10))
+        print(pl.iterate())
+        print(pl.remove_duplicates())
+        print(pl.iterate())
+
+        pl.modify__node(5, 9)
+        print(pl.iterate())
+
+        print("__________________")
+        pl.reverse()
+        print(pl.iterate())
 
 
 if __name__ == '__main__':

@@ -71,10 +71,6 @@ class PyLinkedList:
         except AttributeError:
             return False
 
-    # Reverses the list.
-    def reverse(self):
-        pass
-
     # Returns the middle of the list.
     def middle(self):
         if self.head:
@@ -87,11 +83,16 @@ class PyLinkedList:
 
     # Removes duplicates from the list.
     def remove_duplicates(self):
-        pass
+        values = set(self.iterate())
+        self.head = None
+        for _ in values:
+            self.add(_)
+        return True
 
     # Changes the data in a specified _node in the list.
-    def modify__node(self):
-        pass
+    def modify__node(self, index, data):
+        mod = self.get(index)
+        mod.set_data(data)
 
     # Detects loops in the list.
     def detect_loop(self):
@@ -104,6 +105,18 @@ class PyLinkedList:
     # Shift the list by N elements left.
     def rotate(self):
         pass
+
+    # Reverses the list. - Helper
+    def reverse(self):
+        return self.reverse_list(self.head)
+
+    # Reverses the list. - Recursion
+    def reverse_list(self, curr, prev=None):
+        if curr.get_next():
+            self.reverse_list(curr.get_next(), curr)
+        elif not curr.get_next():
+            self.head = curr
+        curr.set_next(prev)
 
     # Returns the index of the specified data.
     def index_of(self, data):
@@ -128,6 +141,9 @@ class PyLinkedList:
 
         def get_data(self):
             return self._data
+
+        def set_data(self, data):
+            self._data = data
 
         def get_next(self):
             return self._next

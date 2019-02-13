@@ -4,6 +4,8 @@
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/LinkedList/PyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/PyLinkedList.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/PyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/PyLinkedListTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Queue/PyQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Queue/PyQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Stack/PyStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/Stack/PyStack.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,21 +27,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="1" />
-          <entry key="py" value="12" />
+          <entry key="py" value="15" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="Python" value="14" />
+          <entry key="Python" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
           <entry key="md" value="358" />
-          <entry key="py" value="3899" />
+          <entry key="py" value="5485" />
           <entry key="r" value="12" />
         </counts>
       </usages-collector>
@@ -47,7 +49,7 @@
         <counts>
           <entry key="Markdown" value="358" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="3911" />
+          <entry key="Python" value="5497" />
         </counts>
       </usages-collector>
     </session>
@@ -57,15 +59,49 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="727">
+              <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
               <folding>
-                <marker date="1550009101681" expanded="true" signature="19:24" ph="..." />
-                <marker date="1550009101681" expanded="true" signature="2158:2390" ph="..." />
-                <marker date="1550009101681" expanded="true" signature="2158:2849" ph="..." />
-                <marker date="1550009101681" expanded="true" signature="2796:2802" ph="..." />
-                <marker date="1550009101681" expanded="true" signature="2874:3130" ph="..." />
-                <marker date="1550009101681" expanded="true" signature="3171:3222" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="19:24" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="2096:2328" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="2096:3319" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="2396:2533" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="2626:2689" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="2967:3054" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="3267:3272" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="3344:3600" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="3641:3692" ph="..." />
+                <marker date="1550021902537" expanded="true" signature="3899:3939" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Queue/PyQueue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Stack/PyStack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Queue/PyQueueTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -74,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+            <state relative-caret-position="277">
+              <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -96,6 +132,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Node</find>
+      <find>queue</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,18 +146,18 @@
         <option value="$PROJECT_DIR$/pyStack.py" />
         <option value="$PROJECT_DIR$/pyStackTest.py" />
         <option value="$PROJECT_DIR$/Stack/pyStackTest.py" />
-        <option value="$PROJECT_DIR$/Stack/PyStack.py" />
-        <option value="$PROJECT_DIR$/Queue/PyQueue.py" />
         <option value="$PROJECT_DIR$/Queue/PyQueueTest.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LinkedList/PyLinkedListTest.py" />
         <option value="$PROJECT_DIR$/LinkedList/PyLinkedList.py" />
+        <option value="$PROJECT_DIR$/Queue/PyQueue.py" />
+        <option value="$PROJECT_DIR$/Stack/PyStack.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="169" />
+    <option name="x" value="264" />
+    <option name="y" value="160" />
     <option name="width" value="2163" />
     <option name="height" value="1153" />
   </component>
@@ -146,6 +183,11 @@
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="Queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="Stack" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -181,6 +223,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_two">
+    <configuration name="PyLinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/PyLinkedList.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for LinkedList.PyLinkedListTest.MyTestCase.test_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +258,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_add_iterate_contains" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for PyLinkedListTest.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -205,21 +268,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PyLinkedListTest.MyTestCase.test_add_iterate_contains&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyDataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PyLinkedListTest.MyTestCase.test_list&quot;" />
+      <option name="_new_target" value="&quot;PyLinkedListTest.MyTestCase&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -253,18 +302,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.Unittests in PyLinkedListTest.py" />
-      <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_add_iterate_contains" />
-      <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_list" />
       <item itemvalue="Python tests.Unittests for LinkedList.PyLinkedListTest.MyTestCase.test_two" />
       <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_two" />
+      <item itemvalue="Python.PyLinkedList" />
+      <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_two" />
         <item itemvalue="Python tests.Unittests in PyLinkedListTest.py" />
+        <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase" />
+        <item itemvalue="Python.PyLinkedList" />
         <item itemvalue="Python tests.Unittests for LinkedList.PyLinkedListTest.MyTestCase.test_two" />
-        <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_list" />
-        <item itemvalue="Python tests.Unittests for PyLinkedListTest.MyTestCase.test_add_iterate_contains" />
       </list>
     </recent_temporary>
   </component>
@@ -282,39 +331,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 00m 16s.xml">
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 20m 16s.xml">
       <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.12 at 14h 00m 28s.xml">
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 20m 45s.xml">
+      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 24m 53s.xml">
+      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 25m 19s.xml">
+      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.12 at 17h 30m 37s.xml">
       <configuration name="Unittests in PyLinkedListTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.12 at 14h 01m 03s.xml">
+    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.12 at 17h 30m 48s.xml">
       <configuration name="Unittests in PyLinkedListTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 03m 31s.xml">
-      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 03m 41s.xml">
-      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 03m 49s.xml">
-      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 03m 58s.xml">
-      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.12 at 14h 04m 23s.xml">
+    <history-entry file="Unittests_in_PyLinkedListTest_py - 2019.02.12 at 17h 31m 04s.xml">
       <configuration name="Unittests in PyLinkedListTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 04m 39s.xml">
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 34m 36s.xml">
       <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 14h 05m 01s.xml">
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 34m 51s.xml">
+      <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyLinkedListTest_MyTestCase_test_two - 2019.02.12 at 17h 38m 51s.xml">
       <configuration name="Unittests for PyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="261" y="202" width="2163" height="1153" extended-state="0" />
+    <frame x="264" y="160" width="2163" height="1153" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14541176" />
@@ -322,7 +371,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32943925" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36211973" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36211973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3994112" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,20 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Stack/PyStack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Queue/PyQueue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -380,34 +415,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Queue/PyQueueTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="45" column="24" lean-forward="true" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="24" />
+        <state relative-caret-position="277">
+          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/PyQueueTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Stack/PyStack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Queue/PyQueue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/PyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        <state relative-caret-position="727">
+          <caret line="118" column="27" selection-start-line="118" selection-start-column="27" selection-end-line="118" selection-end-column="27" />
           <folding>
-            <marker date="1550009101681" expanded="true" signature="19:24" ph="..." />
-            <marker date="1550009101681" expanded="true" signature="2158:2390" ph="..." />
-            <marker date="1550009101681" expanded="true" signature="2158:2849" ph="..." />
-            <marker date="1550009101681" expanded="true" signature="2796:2802" ph="..." />
-            <marker date="1550009101681" expanded="true" signature="2874:3130" ph="..." />
-            <marker date="1550009101681" expanded="true" signature="3171:3222" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="19:24" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="2096:2328" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="2096:3319" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="2396:2533" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="2626:2689" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="2967:3054" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="3267:3272" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="3344:3600" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="3641:3692" ph="..." />
+            <marker date="1550021902537" expanded="true" signature="3899:3939" ph="..." />
           </folding>
         </state>
       </provider>
