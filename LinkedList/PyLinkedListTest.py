@@ -30,51 +30,57 @@ class MyTestCase(unittest.TestCase):
     def test_two(self):
         for _ in range(0, 10):
             pl.add(random.randint(0, 100))
-        print(pl.iterate())
+        self.assertIsNotNone(pl.iterate())
+
         pl.clear()
-        print(pl.iterate())
-        print("_______________________________")
+        self.assertEqual(0, len(pl.iterate()))
+
         for _ in range(0, 10):
             pl.add(_)
 
-        print("_")
-        print(pl.index_of(2))
-        print("_")
+        self.assertEqual(pl.index_of(2), 3)
 
-        print(pl.iterate())
         pl.remove(9)
-        print(pl.iterate())
         pl.remove(5)
-        print(pl.iterate())
         pl.remove(0)
-        print(pl.iterate())
+        self.assertEqual([1, 2, 3, 4, 6, 7, 8], pl.iterate())
 
         for _ in range(0, 10):
             pl.remove(_)
-        print(pl.iterate())
-        print(pl.index_of(2))
+        self.assertEqual(0, len(pl.iterate()))
 
         for _ in range(1, 11):
             pl.add(_)
-        print(pl.iterate())
-        print(pl.middle())
+
+        self.assertEqual(5, pl.middle())
         pl.add(12432)
-        print(pl.middle())
+        self.assertEqual(6, pl.middle())
 
         pl.clear()
+        for _ in range(0, 10000):
+            pl.add(random.randint(0, 5))
+        pl.remove_duplicates()
+        self.assertEqual([0, 1, 2, 3, 4, 5], pl.iterate())
 
-        for _ in range(0, 1000):
-            pl.add(random.randint(0, 10))
-        print(pl.iterate())
-        print(pl.remove_duplicates())
-        print(pl.iterate())
+        pl.clear()
+        pl.add(1)
+        pl.modify__node(1, 5)
+        self.assertEqual([5], pl.iterate())
 
-        pl.modify__node(5, 9)
-        print(pl.iterate())
+        pl.clear()
+        pl.add(1)
+        pl.add(2)
+        pl.add(3)
+        pl.add(4)
+        pl.reverse()
+        self.assertEqual([4, 3, 2, 1], pl.iterate())
 
-        print("__________________")
+        pl.detect_loop()
+        pl.remove_loop()
+
         pl.reverse()
         print(pl.iterate())
+        pl.rotate(2)
 
 
 if __name__ == '__main__':

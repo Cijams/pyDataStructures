@@ -74,8 +74,7 @@ class PyLinkedList:
     # Returns the middle of the list.
     def middle(self):
         if self.head:
-            fast = self.head
-            slow = self.head
+            fast = slow = self.head
             while fast and fast.get_next():
                 fast = fast.get_next().get_next()
                 slow = slow.get_next()
@@ -96,15 +95,56 @@ class PyLinkedList:
 
     # Detects loops in the list.
     def detect_loop(self):
-        pass
+        node_map = {}
+        curr = self.head
+
+        while curr:
+            if node_map.get(curr):
+                node_map[curr] = node_map[curr]+1
+            else:
+                node_map[curr] = 1
+            curr = curr.get_next()
+
+        for _ in node_map.keys():
+            return True if node_map.get(_) > 1 else False
 
     # Removes any detected loops.
     def remove_loop(self):
-        pass
+        fast = slow = self.head
+        while fast:
+            if not fast.get_next:
+                break
+            else:
+                fast = fast.get_next().get_next()
+                slow = slow.get_next()
+                if slow == fast:
+                    slow = self.head
+                    while slow.next != fast.next:
+                        slow = slow.next
+                        fast = fast.next
+                    fast.next = None
 
     # Shift the list by N elements left.
-    def rotate(self):
-        pass
+    def rotate(self, shift):
+        curr = self.head
+        while curr.get_next():
+            curr = curr.get_next()
+        curr.set_next(self.head)
+
+        print(curr.get_data())
+
+        for _ in range(0, shift):
+            curr = curr.get_next()
+
+        print(curr.get_data())
+        print(curr.get_next().get_next().get_next().get_next().get_data())
+
+        """
+        MAKE THEM A LOOP, THEN SHIFT THE HEAD POINTER OF "shift" AMOUNT, THEN UNLOOP IT~!
+        
+        MAKE A LOOPIFY METHOD
+        """
+
 
     # Reverses the list. - Helper
     def reverse(self):
