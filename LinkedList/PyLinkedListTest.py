@@ -72,15 +72,24 @@ class MyTestCase(unittest.TestCase):
         pl.add(2)
         pl.add(3)
         pl.add(4)
+        pl.add(5)
+        pl.add(6)
         pl.reverse()
-        self.assertEqual([4, 3, 2, 1], pl.iterate())
+        self.assertEqual([6, 5, 4, 3, 2, 1], pl.iterate())
 
         pl.detect_loop()
         pl.remove_loop()
-
         pl.reverse()
-        print(pl.iterate())
-        pl.rotate(2)
+
+        pl.rotate(3)     # 1, 2, 3, 4, 5, 6
+        self.assertEqual([4, 5, 6, 1, 2, 3], pl.iterate())
+        pl.rotate(5)
+        self.assertEqual([5, 6, 1, 2, 3, 4], pl.iterate())
+        pl.rotate(4)
+
+        pl.loopify()
+        pl.remove_loop()
+        self.assertEqual(pl.iterate(), [1, 2, 3, 4, 5, 6])
 
 
 if __name__ == '__main__':

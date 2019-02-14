@@ -111,18 +111,16 @@ class PyLinkedList:
     # Removes any detected loops.
     def remove_loop(self):
         fast = slow = self.head
-        while fast:
-            if not fast.get_next:
-                break
-            else:
+        while fast and fast.get_next():
                 fast = fast.get_next().get_next()
                 slow = slow.get_next()
                 if slow == fast:
-                    slow = self.head
-                    while slow.next != fast.next:
-                        slow = slow.next
-                        fast = fast.next
-                    fast.next = None
+                    self.head = slow
+                    temp = self.head.get_next()
+
+                    while temp.get_next() != self.head:
+                        temp = temp.get_next()
+                    temp.set_next(None)
 
     # Shift the list by N elements left.
     def rotate(self, shift):
@@ -131,20 +129,21 @@ class PyLinkedList:
             curr = curr.get_next()
         curr.set_next(self.head)
 
-        print(curr.get_data())
-
-        for _ in range(0, shift):
+        for _ in range(0, shift+1):
             curr = curr.get_next()
 
-        print(curr.get_data())
-        print(curr.get_next().get_next().get_next().get_next().get_data())
+        self.head = curr
+        temp = self.head.get_next()
 
-        """
-        MAKE THEM A LOOP, THEN SHIFT THE HEAD POINTER OF "shift" AMOUNT, THEN UNLOOP IT~!
-        
-        MAKE A LOOPIFY METHOD
-        """
+        while temp.get_next() != self.head:
+            temp = temp.get_next()
+        temp.set_next(None)
 
+    def loopify(self):
+        curr = self.head
+        while curr.get_next():
+            curr = curr.get_next()
+        curr.set_next(self.head)
 
     # Reverses the list. - Helper
     def reverse(self):
