@@ -5,14 +5,13 @@ Completed:
 
 Stacks
 Queues
+SinglyLinkedLists
 
 __________________________________________
 
 In Progress:
 
-SinglyLinkedLists
 DoublyLinkedLists
-CircularlyLinkedLists
 
 Priority Queue
 Binary Search Tree - All ops.
