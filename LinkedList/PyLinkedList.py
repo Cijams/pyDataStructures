@@ -147,12 +147,12 @@ class PyLinkedList:
 
     # Reverses the list. - Helper
     def reverse(self):
-        return self.reverse_list(self.head)
+        return self._reverse(self.head)
 
     # Reverses the list. - Recursion
-    def reverse_list(self, curr, prev=None):
+    def _reverse(self, curr, prev=None):
         if curr.get_next():
-            self.reverse_list(curr.get_next(), curr)
+            self._reverse(curr.get_next(), curr)
         elif not curr.get_next():
             self.head = curr
         curr.set_next(prev)
