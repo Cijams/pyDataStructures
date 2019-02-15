@@ -3,18 +3,18 @@ Data-Structures in Python done for practice.
 
 Completed:
 
-Stacks
-Queues
+Stacks,
+Queues,
 SinglyLinkedLists
 
 __________________________________________
 
 In Progress:
 
-DoublyLinkedLists
-
-Priority Queue
 Binary Search Tree - All ops.
+
+DoublyLinkedLists
+Priority Queue
 HashTable - Chaining/Probing
 Binary Heap - Min/Max
 

@@ -2,12 +2,14 @@ class PyBinaryTree:
     def __init__(self, head=None):
         self.head = head
 
+    # Insert first Node or call main method.
     def insert(self, data=None):
         if self.head is None:
             self.head = self._Node(data)
         else:
             self._insert(self.head, data)
 
+    # Insert a node into the binary tree.
     def _insert(self, curr, data):
         if data < curr.get_data():
             if curr.get_left() is None:
@@ -33,7 +35,14 @@ class PyBinaryTree:
         pass
 
     def pre_order_traversal(self):
-        pass
+        self._pre_order_traversal(self.head)
+
+    def _pre_order_traversal(self, curr):
+        print(curr.get_data())
+        if curr.get_left():
+            self._in_order_traversal(curr.get_left())
+        if curr.get_right():
+            self._in_order_traversal(curr.get_right())
 
     def in_order_traversal(self):
         self._in_order_traversal(self.head)
@@ -46,7 +55,14 @@ class PyBinaryTree:
             self._in_order_traversal(curr.get_right())
 
     def post_order_traversal(self):
-        pass
+        self._post_order_traversal(self.head)
+
+    def _post_order_traversal(self, curr):
+        if curr.get_left():
+            self._in_order_traversal(curr.get_left())
+        if curr.get_right():
+            self._in_order_traversal(curr.get_right())
+        print(curr.get_data())
 
     def level_order_traversal(self):
         pass
