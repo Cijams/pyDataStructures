@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/PyBinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyBinaryTree/PyBinaryTree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BinaryTree/PyBinaryTreeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyBinaryTree/PyBinaryTreeTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/PyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/PyLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/PyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/PyLinkedListTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/PyQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQueue/PyQueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Queue/PyQueueTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyQueue/PyQueueTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/PyStack.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyStack/PyStack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/pyStackTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyStack/pyStackTest.py" afterDir="false" />
-    </list>
+    <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,33 +54,33 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyBinaryTree/PyBinaryTree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1475">
-              <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+            <state relative-caret-position="-800">
+              <caret line="142" column="22" lean-forward="true" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
               <folding>
-                <marker date="1550284712346" expanded="true" signature="19:24" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="493:952" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="969:974" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="969:978" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="1034:1201" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="1224:1229" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="1224:1281" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="1224:1819" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="1464:1819" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="1973:2107" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="2356:2426" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="2649:2931" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="3161:3433" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="3567:3732" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="3756:4061" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="4098:4140" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="4161:4315" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="4415:4571" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="4671:4766" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="5097:5144" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="5316:5355" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="5375:5415" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="5434:5473" ph="..." />
-                <marker date="1550284712346" expanded="true" signature="5503:5542" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="19:24" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="493:952" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="969:974" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="969:978" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="1034:1201" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="1224:1229" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="1224:1281" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="1224:1819" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="1464:1819" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="1973:2107" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="2356:2426" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="2649:2931" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="3161:3433" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="3567:3732" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="3756:4061" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="4098:4140" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="4161:4315" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="4415:4571" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="4671:4766" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="5097:5144" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="5316:5355" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="5375:5415" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="5434:5473" ph="..." />
+                <marker date="1550284808969" expanded="true" signature="5503:5542" ph="..." />
               </folding>
             </state>
           </provider>
@@ -151,9 +141,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1341" />
+    <option name="x" value="998" />
     <option name="y" value="323" />
-    <option name="width" value="2449" />
+    <option name="width" value="2337" />
     <option name="height" value="1107" />
   </component>
   <component name="ProjectView">
@@ -364,6 +354,7 @@
     <list>
       <item itemvalue="Python.PyBinaryTree" />
       <item itemvalue="Python tests.Unittests for pyLinkedList.PyLinkedListTest.MyTestCase.test_two" />
+      <item itemvalue="Python tests.Unittests for pyBinaryTree.PyBinaryTreeTest.MyTestCase.test_something" />
       <item itemvalue="Python tests.Unittests in PyLinkedListTest.py" />
       <item itemvalue="Python tests.Unittests in PyBinaryTreeTest.py" />
       <item itemvalue="Python tests.Unittests for PyBinaryTreeTest.MyTestCase.test_something" />
@@ -426,8 +417,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="476" y="214" width="2449" height="1107" extended-state="0" />
-    <editor active="true" />
+    <frame x="998" y="323" width="2337" height="1107" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.1281626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -546,9 +536,9 @@
         <state relative-caret-position="350">
           <caret line="174" selection-start-line="174" selection-end-line="174" selection-end-column="44" />
           <folding>
-            <marker date="1550278623745" expanded="true" signature="19:24" ph="..." />
-            <marker date="1550278623745" expanded="true" signature="3059:3064" ph="..." />
-            <marker date="1550278623745" expanded="true" signature="3314:3315" ph="..." />
+            <marker date="1550284808972" expanded="true" signature="19:24" ph="..." />
+            <marker date="1550284808972" expanded="true" signature="3059:3064" ph="..." />
+            <marker date="1550284808972" expanded="true" signature="3314:3315" ph="..." />
           </folding>
         </state>
       </provider>
@@ -575,33 +565,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pyBinaryTree/PyBinaryTree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1475">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        <state relative-caret-position="-800">
+          <caret line="142" column="22" lean-forward="true" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
           <folding>
-            <marker date="1550284712346" expanded="true" signature="19:24" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="493:952" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="969:974" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="969:978" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="1034:1201" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="1224:1229" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="1224:1281" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="1224:1819" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="1464:1819" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="1973:2107" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="2356:2426" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="2649:2931" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="3161:3433" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="3567:3732" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="3756:4061" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="4098:4140" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="4161:4315" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="4415:4571" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="4671:4766" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="5097:5144" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="5316:5355" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="5375:5415" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="5434:5473" ph="..." />
-            <marker date="1550284712346" expanded="true" signature="5503:5542" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="19:24" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="493:952" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="969:974" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="969:978" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="1034:1201" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="1224:1229" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="1224:1281" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="1224:1819" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="1464:1819" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="1973:2107" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="2356:2426" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="2649:2931" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="3161:3433" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="3567:3732" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="3756:4061" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="4098:4140" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="4161:4315" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="4415:4571" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="4671:4766" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="5097:5144" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="5316:5355" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="5375:5415" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="5434:5473" ph="..." />
+            <marker date="1550284808969" expanded="true" signature="5503:5542" ph="..." />
           </folding>
         </state>
       </provider>
