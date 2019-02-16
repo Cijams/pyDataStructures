@@ -128,6 +128,14 @@ class PyBinaryTree:
             self._height(curr.get_right())
             self._count -= 1
 
+    # flips the binary tree.
+    def flip(self):
+        pass
+
+    # Returns the depth of the node in the tree.
+    def depth(self, data):
+        pass
+
     def min(self):
         self._data = 0
         return self._min(self.head)
