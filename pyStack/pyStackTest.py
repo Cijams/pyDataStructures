@@ -1,6 +1,6 @@
 import unittest
 import random
-from Stack import PyStack
+from pyStack import PyStack
 
 ps = PyStack.PyStack()
 
