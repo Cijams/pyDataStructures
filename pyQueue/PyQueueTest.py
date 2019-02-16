@@ -2,7 +2,7 @@ import unittest
 import random
 from .PyQueue import PyQueue
 
-pq = PyQueue.PyQueue()
+pq = PyQueue()
 
 
 class MyTestCase(unittest.TestCase):

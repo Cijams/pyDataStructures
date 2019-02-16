@@ -1,11 +1,9 @@
 import unittest
 import random
-from LinkedList import PyLinkedList
-#from .PyLinkedList import PyLinkedList -
+from pyLinkedList import PyLinkedList
 
 
 pl = PyLinkedList.PyLinkedList()
-#pl = PyLinkedList() -
 
 
 class MyTestCase(unittest.TestCase):
