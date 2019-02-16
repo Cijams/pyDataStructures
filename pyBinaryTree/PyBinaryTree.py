@@ -16,7 +16,7 @@ class PyBinaryTree:
     # Insert a node into the binary tree.
     def _insert(self, curr, data):
         if type(data) is int:
-            if data < curr.get_data():
+            if data < curr.get_data(): # investing merging into AND here
                 if curr.get_left() is None:
                     curr.set_left(self._Node(data))
                 else:
@@ -26,6 +26,10 @@ class PyBinaryTree:
                     curr.set_right(self._Node(data))
                 else:
                     self._insert(curr.get_right(), data)
+
+    # return node of value in log(n) time
+    def get(self):
+        pass
 
     # Delete a specified Node from the tree.
     def delete(self):
@@ -39,7 +43,7 @@ class PyBinaryTree:
         self._found = False
 
     # Returns the position of the specified Node. - Helper
-    def search(self, data):
+    def search_dfs(self, data):
         self._count = 0
         self._found = False
         return self._search(self.head, data)
@@ -56,6 +60,12 @@ class PyBinaryTree:
             if curr.get_right():
                 self._search(curr.get_right(), data)
         return self._count
+
+    def search_bfs(self):
+        pass
+
+    def _search_bfs(self):
+        pass
 
     # Returns level of the specified Node
     def rank(self):
@@ -146,6 +156,19 @@ class PyBinaryTree:
         else:
             self._data = curr.get_data()
         return self._data
+
+    """ INVESTIGATE RETURN HERE TO ELIMINATE A LINE OF CODE
+    courtesy of dev.to 
+    
+    def find_minimum_value(self):
+    if self.left_child:
+        return self.left_child.find_minimum_value()
+    else:
+        return self.value
+    """
+
+
+
 
     def max(self):
         self._data = 0
