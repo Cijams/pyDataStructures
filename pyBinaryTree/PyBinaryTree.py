@@ -1,10 +1,7 @@
 class PyBinaryTree:
     def __init__(self, head=None):
         self.head = head
-        self._count = 0
-        self._data = 0
         self._order = []
-        self._found = False
 
     # Insert first Node or call main method.
     def insert(self, data=None):
@@ -16,16 +13,16 @@ class PyBinaryTree:
     # Insert a node into the binary tree.
     def _insert(self, curr, data):
         if type(data) is int:
-            if data < curr.get_data(): # investing merging into AND here
-                if curr.get_left() is None:
-                    curr.set_left(self._Node(data))
+            if data < curr.data:  # investing merging into AND here
+                if curr.left is None:
+                    curr.left = self._Node(data)
                 else:
-                    self._insert(curr.get_left(), data)
+                    self._insert(curr.left, data)
             else:
-                if curr.get_right() is None:
-                    curr.set_right(self._Node(data))
+                if curr.right is None:
+                    curr.right = self._Node(data)
                 else:
-                    self._insert(curr.get_right(), data)
+                    self._insert(curr.right, data)
 
     # return node of value in log(n) time
     def get(self):
@@ -38,28 +35,19 @@ class PyBinaryTree:
     # Deletes the entire tree
     def clear(self):
         self.head = None
-        self._count = 0
-        self._order = []
-        self._found = False
 
-    # Returns the position of the specified Node. - Helper
+    # Returns the specified Node. - Helper
     def search_dfs(self, data):
-        self._count = 0
-        self._found = False
-        return self._search(self.head, data)
+        return self._search_dfs(self.head, data)
 
-    # Returns the position of the specified Node.
-    def _search(self, curr, data):
-        if not self._found:
-            self._count += 1
-            if curr.get_data() == data:
-                self._found = True
-                return self._count
-            if curr.get_left():
-                self._search(curr.get_left(), data)
-            if curr.get_right():
-                self._search(curr.get_right(), data)
-        return self._count
+    # Returns the specified Node.
+    def _search_dfs(self, curr, data):
+        if not curr or curr.data == data:
+            return curr
+        if data < curr.data:
+            return self._search_dfs(curr.left, data)
+        if data >= curr.data:
+            return self._search_dfs(curr.right, data)
 
     def search_bfs(self):
         pass
@@ -79,11 +67,11 @@ class PyBinaryTree:
 
     # Returns a list of nodes in pre-ordered condition.
     def _pre_order_traversal(self, curr):
-        self._order.append(curr.get_data())
-        if curr.get_left():
-            self._pre_order_traversal(curr.get_left())
-        if curr.get_right():
-            self._pre_order_traversal(curr.get_right())
+        self._order.append(curr.data)
+        if curr.left:
+            self._pre_order_traversal(curr.left)
+        if curr.right:
+            self._pre_order_traversal(curr.right)
 
     # Returns a list of nodes in in-ordered condition. - Helper
     def in_order_traversal(self):
@@ -93,11 +81,11 @@ class PyBinaryTree:
 
     # Returns a list of nodes in pre-ordered condition.
     def _in_order_traversal(self, curr):
-        if curr.get_left():
-            self._in_order_traversal(curr.get_left())
-        self._order.append(curr.get_data())
-        if curr.get_right():
-            self._in_order_traversal(curr.get_right())
+        if curr.left:
+            self._in_order_traversal(curr.left)
+        self._order.append(curr.data)
+        if curr.right:
+            self._in_order_traversal(curr.right)
 
     # Returns a list of nodes in post-ordered condition. - Helper
     def post_order_traversal(self):
@@ -107,11 +95,11 @@ class PyBinaryTree:
 
     # Returns a list of nodes in post-ordered condition.
     def _post_order_traversal(self, curr):
-        if curr.get_left():
-            self._post_order_traversal(curr.get_left())
-        if curr.get_right():
-            self._post_order_traversal(curr.get_right())
-        self._order.append(curr.get_data())
+        if curr.left:
+            self._post_order_traversal(curr.left)
+        if curr.right:
+            self._post_order_traversal(curr.right)
+        self._order.append(curr.data)
 
     # Returns a list of node by their height level.
     def level_order_traversal(self):
@@ -119,24 +107,16 @@ class PyBinaryTree:
 
     # Prints the height of the binary tree.
     def height(self):
-        if self.head:
-            self._count = 0
-            self._data = 0
-            self._height(self.head)
-            return self._data
-        else:
-            return None
+        return self._height(self.head) if self.head else None
 
     def _height(self, curr):
-        self._count += 1
-        if self._count > self._data:
-            self._data = self._count
-        if curr.get_left():
-            self._height(curr.get_left())
-            self._count -= 1
-        if curr.get_right():
-            self._height(curr.get_right())
-            self._count -= 1
+        if curr:
+            left_depth = self._height(curr.left)
+            right_depth = self._height(curr.right)
+            return left_depth + 1 if left_depth > right_depth\
+                else right_depth + 1
+        else:
+            return 0
 
     # flips the binary tree.
     def flip(self):
@@ -175,10 +155,10 @@ class PyBinaryTree:
         return self._max(self.head)
 
     def _max(self, curr):
-        if curr.get_right():
-            self._max(curr.get_right())
+        if curr.right:
+            self._max(curr.right)
         else:
-            self._data = curr.get_data()
+            self._data = curr.data
         return self._data
 
     # Returns the total sum of the data in the tree. - Helper
@@ -188,11 +168,11 @@ class PyBinaryTree:
 
     # Returns the total sum of the data in the tree.
     def _sum(self, curr):
-        self._count += curr.get_data()
-        if curr.get_left():
-            self._sum(curr.get_left())
-        if curr.get_right():
-            self._sum(curr.get_right())
+        self._count += curr.data
+        if curr.left:
+            self._sum(curr.left)
+        if curr.right:
+            self._sum(curr.right)
         return self._count
 
     # Returns true if the data-structure is a complete binary tree
@@ -205,18 +185,3 @@ class PyBinaryTree:
             self.data = data
             self.left = None
             self.right = None
-
-        def get_left(self):
-            return self.left
-
-        def get_right(self):
-            return self.right
-
-        def get_data(self):
-            return self.data
-
-        def set_left(self, left=None):
-            self.left = left
-
-        def set_right(self, right=None):
-            self.right = right
