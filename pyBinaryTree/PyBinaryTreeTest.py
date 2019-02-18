@@ -38,6 +38,8 @@ class MyTestCase(unittest.TestCase):
         bt.insert(75)
         bt.insert(85)
 
+        print(0 > 0)
+
         self.assertEqual(bt.height(), 4)
         print(bt.height())
 

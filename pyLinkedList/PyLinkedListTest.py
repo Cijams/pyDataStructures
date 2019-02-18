@@ -8,6 +8,7 @@ pl = PyLinkedList.PyLinkedList()
 
 class MyTestCase(unittest.TestCase):
     def test_list(self):
+
         pl.add(1)
         pl.add(2)
         pl.add(3)
@@ -21,7 +22,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(pl.size(), 4)
         self.assertEqual([1, 2, 3, 5], pl.iterate())
         self.assertIsNotNone(pl.get(1))
-
         self.assertEqual(pl.get_first(), 1)
         self.assertEqual(pl.get_last(), 5)
 
@@ -35,7 +35,6 @@ class MyTestCase(unittest.TestCase):
 
         for _ in range(0, 10):
             pl.add(_)
-
         self.assertEqual(pl.index_of(2), 3)
 
         pl.remove(9)
@@ -55,8 +54,10 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(6, pl.middle())
 
         pl.clear()
+
         for _ in range(0, 10000):
             pl.add(random.randint(0, 5))
+
         pl.remove_duplicates()
         self.assertEqual([0, 1, 2, 3, 4, 5], pl.iterate())
 
@@ -88,6 +89,13 @@ class MyTestCase(unittest.TestCase):
         pl.loopify()
         pl.remove_loop()
         self.assertEqual(pl.iterate(), [1, 2, 3, 4, 5, 6])
+        """
+
+
+        pl.loopify()
+        pl.remove_loop()
+        self.assertEqual(pl.iterate(), [1, 2, 3, 4, 5, 6])
+"""
 
 
 if __name__ == '__main__':
