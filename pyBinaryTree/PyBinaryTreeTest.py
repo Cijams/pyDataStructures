@@ -17,7 +17,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(bt.post_order_traversal(), [1, 3, 6, 5])
         self.assertEqual(bt.pre_order_traversal(), [5, 3, 1, 6])
 
-        self.assertEqual(bt.sum(), 15)
+        self.assertEqual(15, bt.sum())
         bt.insert(15)
         self.assertEqual(bt.sum(), 30)
 
@@ -38,17 +38,13 @@ class MyTestCase(unittest.TestCase):
         bt.insert(75)
         bt.insert(85)
 
-        print(0 > 0)
-
-        self.assertEqual(bt.height(), 4)
-        print(bt.height())
-
-"""
-
         self.assertEqual(bt.height(), 4)
         self.assertEqual(bt.min(), 10)
         self.assertEqual(bt.max(), 85)
 
+        bt.insert(0)
+        bt.insert(100)
+"""
         bt.insert(0)
         bt.insert(100)
 

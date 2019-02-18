@@ -24,10 +24,6 @@ class PyBinaryTree:
                 else:
                     self._insert(curr.right, data)
 
-    # return node of value in log(n) time
-    def get(self):
-        pass
-
     # Delete a specified Node from the tree.
     def delete(self):
         pass
@@ -126,54 +122,30 @@ class PyBinaryTree:
     def depth(self, data):
         pass
 
+    # Returns the smallest value in the tree. - Helper
     def min(self):
-        self._data = 0
         return self._min(self.head)
 
+    # Returns the smallest value in the tree. - Helper
     def _min(self, curr):
-        if curr.get_left():
-            self._min(curr.get_left())
-        else:
-            self._data = curr.get_data()
-        return self._data
+        return self._min(curr.left) if curr.left else curr.data
 
-    """ INVESTIGATE RETURN HERE TO ELIMINATE A LINE OF CODE
-    courtesy of dev.to 
-    
-    def find_minimum_value(self):
-    if self.left_child:
-        return self.left_child.find_minimum_value()
-    else:
-        return self.value
-    """
-
-
-
-
+    # Returns the largest value in the tree. - Helper
     def max(self):
-        self._data = 0
         return self._max(self.head)
 
+    # Returns the largest value in the tree.
     def _max(self, curr):
-        if curr.right:
-            self._max(curr.right)
-        else:
-            self._data = curr.data
-        return self._data
+        return self._max(curr.right) if curr.right else curr.data
 
     # Returns the total sum of the data in the tree. - Helper
     def sum(self):
-        self._count = 0
         return self._sum(self.head)
 
     # Returns the total sum of the data in the tree.
     def _sum(self, curr):
-        self._count += curr.data
-        if curr.left:
-            self._sum(curr.left)
-        if curr.right:
-            self._sum(curr.right)
-        return self._count
+        return curr.data + self._sum(curr.left) + self._sum(curr.right)\
+            if curr else 0
 
     # Returns true if the data-structure is a complete binary tree
     def is_complete(self):

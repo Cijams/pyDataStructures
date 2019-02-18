@@ -1,9 +1,9 @@
 import unittest
 import random
-from pyLinkedList import PyLinkedList
+from pySinglyLinkedList import PySinglyLinkedList
 
 
-pl = PyLinkedList.PyLinkedList()
+pl = PySinglyLinkedList.PyLinkedList()
 
 
 class MyTestCase(unittest.TestCase):
@@ -89,13 +89,6 @@ class MyTestCase(unittest.TestCase):
         pl.loopify()
         pl.remove_loop()
         self.assertEqual(pl.iterate(), [1, 2, 3, 4, 5, 6])
-        """
-
-
-        pl.loopify()
-        pl.remove_loop()
-        self.assertEqual(pl.iterate(), [1, 2, 3, 4, 5, 6])
-"""
 
 
 if __name__ == '__main__':
