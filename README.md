@@ -6,6 +6,7 @@ Completed:
 Stacks,
 Queues,
 SinglyLinkedLists
+Set
 
 __________________________________________
 
@@ -17,8 +18,7 @@ DoublyLinkedLists
 Priority Queue
 HashTable - Chaining/Probing
 Binary Heap - Min/Max
-
 Graph
-Set
 Map
+
 

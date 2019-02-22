@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pySet/PySet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pySet/PySet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pySet/PySetTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pySet/PySetTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyHashTable/PyHashTable.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pyHashTable/PyHashTableTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,7 +16,7 @@
     <session id="1422906102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="3" />
@@ -25,28 +25,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="7" />
-          <entry key="py" value="62" />
+          <entry key="md" value="8" />
+          <entry key="py" value="64" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="7" />
-          <entry key="Python" value="64" />
+          <entry key="Markdown" value="8" />
+          <entry key="Python" value="66" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
-          <entry key="md" value="363" />
+          <entry key="md" value="374" />
           <entry key="py" value="24018" />
           <entry key="r" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="363" />
+          <entry key="Markdown" value="374" />
           <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="24030" />
         </counts>
@@ -60,7 +60,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pySet/PySet.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="3700">
+                <state relative-caret-position="508">
                   <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
                   <folding>
                     <marker date="1550804151092" expanded="true" signature="12:17" ph="..." />
@@ -82,7 +82,33 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+                <state split_layout="SPLIT">
+                  <first_editor relative-caret-position="525">
+                    <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+                  </first_editor>
+                  <second_editor />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pyHashTable/PyHashTable.py">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pyHashTable/PyHashTableTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="250">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="433">
@@ -174,7 +200,6 @@
         <option value="$PROJECT_DIR$/Queue/PyQueue.py" />
         <option value="$PROJECT_DIR$/Stack/PyStack.py" />
         <option value="$PROJECT_DIR$/LinkedList/PyLinkedList.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/BinaryTree/PyBinaryTree.py" />
         <option value="$PROJECT_DIR$/BinaryTree/PyBinaryTreeTest.py" />
         <option value="$PROJECT_DIR$/Queue/PyQueueTest.py" />
@@ -187,6 +212,9 @@
         <option value="$PROJECT_DIR$/PySet/PySetTest.py" />
         <option value="$PROJECT_DIR$/pySet/PySet.py" />
         <option value="$PROJECT_DIR$/pySet/PySetTest.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pyHashTable/PyHashTable.py" />
+        <option value="$PROJECT_DIR$/pyHashTable/PyHashTableTest.py" />
       </list>
     </option>
   </component>
@@ -229,16 +257,12 @@
             <path>
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="pySet" type="462c0819:PsiDirectoryNode" />
+              <item name="pyHashTable" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
-              <item name="pySinglyLinkedList" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="pyQueue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -483,12 +507,12 @@
     <frame x="342" y="69" width="1860" height="1239" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14763996" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14763996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285068" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36108598" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36108598" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.58642536" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -591,16 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pySinglyLinkedList/PySinglyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -630,9 +644,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1550804268505" expanded="true" signature="191:196" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pySet/PySet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3700">
+        <state relative-caret-position="508">
           <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
           <folding>
             <marker date="1550804151092" expanded="true" signature="12:17" ph="..." />
@@ -653,14 +678,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="525">
+            <caret line="21" column="3" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyHashTable/PyHashTable.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyHashTable/PyHashTableTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1550804268505" expanded="true" signature="191:196" ph="..." />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
