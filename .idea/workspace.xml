@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySet/PySet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pySet/PySet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PySet/PySetTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pySet/PySetTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pySet/PySet.py" beforeDir="false" afterPath="$PROJECT_DIR$/pySet/PySet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pySet/PySetTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pySet/PySetTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,21 +26,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="7" />
-          <entry key="py" value="60" />
+          <entry key="py" value="62" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="7" />
-          <entry key="Python" value="62" />
+          <entry key="Python" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="13" />
           <entry key="md" value="363" />
-          <entry key="py" value="20126" />
+          <entry key="py" value="24018" />
           <entry key="r" value="12" />
         </counts>
       </usages-collector>
@@ -48,7 +48,7 @@
         <counts>
           <entry key="Markdown" value="363" />
           <entry key="PLAIN_TEXT" value="13" />
-          <entry key="Python" value="20138" />
+          <entry key="Python" value="24030" />
         </counts>
       </usages-collector>
     </session>
@@ -57,34 +57,51 @@
     <splitter split-orientation="horizontal" split-proportion="0.71223336">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pySet/PySet.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1650">
-                  <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+                <state relative-caret-position="3700">
+                  <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
                   <folding>
-                    <marker date="1550796465157" expanded="true" signature="12:17" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="503:568" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="591:970" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="591:991" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="1061:1236" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="1264:1432" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="1486:1628" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="1486:1650" ph="..." />
-                    <marker date="1550796465157" expanded="true" signature="1692:1744" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="12:17" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="503:568" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="591:970" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="591:991" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="1061:1236" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="1264:1432" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="1486:1628" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="1486:1650" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="2448:2454" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="2565:2835" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="2940:3171" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="3285:3419" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="3516:3691" ph="..." />
+                    <marker date="1550804151092" expanded="true" signature="4018:4070" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="433">
+                  <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                    <marker date="1550804268505" expanded="true" signature="191:196" ph="..." />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
+            <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="433">
-                  <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+                <state relative-caret-position="219">
+                  <caret line="58" selection-start-line="58" selection-end-line="58" />
                   <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                    <marker date="1550796428388" expanded="true" signature="129:135" ph="..." />
+                    <element signature="e#32#42#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -106,7 +123,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pySinglyLinkedList/PySinglyLinkedList.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
+                <state relative-caret-position="-239">
                   <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
                   <folding>
                     <marker date="1550471566898" expanded="true" signature="19:24" ph="..." />
@@ -168,16 +185,33 @@
         <option value="$PROJECT_DIR$/pyBinaryTree/PyBinaryTree.py" />
         <option value="$PROJECT_DIR$/PySet/PySet.py" />
         <option value="$PROJECT_DIR$/PySet/PySetTest.py" />
-        <option value="$PROJECT_DIR$/pySet/PySetTest.py" />
         <option value="$PROJECT_DIR$/pySet/PySet.py" />
+        <option value="$PROJECT_DIR$/pySet/PySetTest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="219" />
-    <option name="y" value="71" />
-    <option name="width" value="1640" />
+    <option name="x" value="342" />
+    <option name="y" value="69" />
+    <option name="width" value="1860" />
     <option name="height" value="1239" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyMethodMayBeStaticInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,7 +248,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -254,6 +288,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BinaryTree/PyBinaryTree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="PySet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pySet" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pySet/PySet.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -346,20 +401,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in PyBinaryTreeTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyDataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyBinaryTree" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyBinaryTree/PyBinaryTreeTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in PySetTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -377,19 +418,19 @@
     <list>
       <item itemvalue="Python.PyBinaryTree" />
       <item itemvalue="Python tests.Unittests for pySinglyLinkedList.PySinglyLinkedListTest.MyTestCase.test_two" />
-      <item itemvalue="Python tests.Unittests in PyBinaryTreeTest.py" />
       <item itemvalue="Python tests.Unittests for PySinglyLinkedListTest.MyTestCase.test_two" />
       <item itemvalue="Python tests.Unittests for PySetTest.MyTestCase.test_something" />
       <item itemvalue="Python tests.Unittests in PySetTest.py" />
       <item itemvalue="Python tests.Unittests for PySetTest.MyTestCase" />
+      <item itemvalue="Python.PySet" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for PySetTest.MyTestCase.test_something" />
         <item itemvalue="Python tests.Unittests in PySetTest.py" />
         <item itemvalue="Python tests.Unittests for PySetTest.MyTestCase" />
+        <item itemvalue="Python.PySet" />
         <item itemvalue="Python tests.Unittests for pySet.PySetTest.MyTestCase.test_something" />
-        <item itemvalue="Python tests.Unittests for PySinglyLinkedListTest.MyTestCase.test_two" />
       </list>
     </recent_temporary>
   </component>
@@ -407,42 +448,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 43m 26s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 46m 34s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 43m 38s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 47m 02s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 43m 52s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 52m 26s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 44m 18s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 52m 37s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 45m 17s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 53m 26s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 45m 38s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 55m 31s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 46m 12s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 55m 51s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 46m 22s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 56m 02s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 46m 53s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 56m 44s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 16h 47m 08s.xml">
+    <history-entry file="Unittests_for_PySetTest_MyTestCase_test_something - 2019.02.21 at 18h 57m 48s.xml">
       <configuration name="Unittests for PySetTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="219" y="71" width="2604" height="1239" extended-state="0" />
+    <frame x="342" y="69" width="1860" height="1239" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.104832426" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14763996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -504,6 +545,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="58" lean-forward="true" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -511,13 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
           <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="831" selection-start-line="831" selection-end-line="831" />
         </state>
       </provider>
     </entry>
@@ -573,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pySinglyLinkedList/PySinglyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="-239">
           <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <marker date="1550471566898" expanded="true" signature="19:24" ph="..." />
@@ -583,31 +620,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="219">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1550796428388" expanded="true" signature="129:135" ph="..." />
+            <element signature="e#32#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pySet/PySet.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="66" column="46" selection-start-line="66" selection-start-column="46" selection-end-line="66" selection-end-column="46" />
+        <state relative-caret-position="3700">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
           <folding>
-            <marker date="1550796465157" expanded="true" signature="12:17" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="503:568" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="591:970" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="591:991" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="1061:1236" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="1264:1432" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="1486:1628" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="1486:1650" ph="..." />
-            <marker date="1550796465157" expanded="true" signature="1692:1744" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="12:17" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="503:568" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="591:970" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="591:991" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="1061:1236" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="1264:1432" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="1486:1628" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="1486:1650" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="2448:2454" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="2565:2835" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="2940:3171" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="3285:3419" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="3516:3691" ph="..." />
+            <marker date="1550804151092" expanded="true" signature="4018:4070" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pySet/PySetTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1550804268505" expanded="true" signature="191:196" ph="..." />
           </folding>
         </state>
       </provider>

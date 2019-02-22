@@ -64,6 +64,83 @@ class PySet:
     def clear(self):
         self.head = None
 
+    # Removes the last element from the set.
+    def pop(self):
+        curr = self.head
+        if curr:
+            if curr.next is None:
+                self.head = None
+            while curr.next.next:
+                curr = curr.next
+            curr.next = None
+
+    # Returns a set containing the difference between two sets
+    @staticmethod
+    def difference(set_one, set_two):
+        try:
+            my_map = {}
+            my_map = PySet._counter(set_one, my_map)
+            my_map = PySet._counter(set_two, my_map)
+            return_set = set()
+            for _ in my_map:
+                if my_map.get(_) == 1:
+                    return_set.add(_)
+            return return_set
+        except AttributeError as e:
+            print(e)
+
+    # Returns a set that is the intersection of two sets.
+    @staticmethod
+    def intersection(set_one, set_two):
+        my_map = {}
+        my_map = PySet._counter(set_one, my_map)
+        my_map = PySet._counter(set_two, my_map)
+        return_set = set()
+        for _ in my_map:
+            if my_map.get(_) > 1:
+                return_set.add(_)
+        return return_set
+
+    # Returns whether two sets have an intersection.
+    @staticmethod
+    def is_disjoint(set_one, set_two):
+        my_map = {}
+        my_map = PySet._counter(set_one, my_map)
+        my_map = PySet._counter(set_two, my_map)
+        for _ in my_map:
+            if my_map.get(_) > 1:
+                return False
+        return True
+
+    # Returns true if the first set is a subset of the second.
+    @staticmethod
+    def is_subset(set_one, set_two):
+        for _ in set_one.iterate():
+            if _ not in set_two.iterate():
+                return False
+        return True
+
+    # Returns a set that is the union of two sets.
+    @staticmethod
+    def union(set_one, set_two):
+        my_set = set()
+        for _ in set_one.iterate():
+            my_set.add(_)
+        for _ in set_two.iterate():
+            my_set.add(_)
+        return my_set
+
+    # Helper methods to count the occurrences of each element
+    @staticmethod
+    def _counter(set_one, my_map):
+        my_list = set_one.iterate()
+        for i in my_list:
+            if my_map.get(i) is None:
+                my_map[i] = 1
+            else:
+                my_map[i] = my_map.get(i) + 1
+        return my_map
+
     # Node class for linking and data storage.
     class _Node:
         def __init__(self, data=None):
