@@ -5,7 +5,7 @@ Completed:
 
 Stacks,
 Queues,
-SinglyLinkedLists
+SinglyLinkedLists,
 Set
 
 __________________________________________
