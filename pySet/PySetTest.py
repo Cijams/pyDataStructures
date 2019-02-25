@@ -86,6 +86,10 @@ class MyTestCase(unittest.TestCase):
         ps1.add(7)
         self.assertFalse(ps.is_subset(ps1, ps2))
 
+        print(ps1.iterate())
+        ps1.change(2, 1)
+        print(ps1.iterate())
+
 
 if __name__ == '__main__':
     unittest.main()
