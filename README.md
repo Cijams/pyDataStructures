@@ -7,6 +7,7 @@ Stacks,
 Queues,
 SinglyLinkedLists,
 Set
+HashTable - Chaining
 
 __________________________________________
 
@@ -16,7 +17,7 @@ Binary Search Tree - All ops.
 
 DoublyLinkedLists
 Priority Queue
-HashTable - Chaining/Probing
+HashTable - Probing
 Binary Heap - Min/Max
 Graph
 Map
