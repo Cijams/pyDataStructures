@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyHashTable/PyHashTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyHashTable/PyHashTableTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pySinglyLinkedList/PySinglyLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/Single/PySinglyLinkedList.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pySinglyLinkedList/PySinglyLinkedListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/Single/PySinglyLinkedListTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,21 +27,21 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="md" value="9" />
-          <entry key="py" value="85" />
+          <entry key="py" value="94" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="9" />
-          <entry key="Python" value="87" />
+          <entry key="Python" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="17" />
           <entry key="md" value="381" />
-          <entry key="py" value="26314" />
+          <entry key="py" value="27149" />
           <entry key="r" value="12" />
         </counts>
       </usages-collector>
@@ -51,23 +49,68 @@
         <counts>
           <entry key="Markdown" value="381" />
           <entry key="PLAIN_TEXT" value="17" />
-          <entry key="Python" value="26326" />
+          <entry key="Python" value="27161" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="475">
+              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
               <folding>
-                <marker date="1551136366818" expanded="true" signature="42:61" ph="..." />
-                <marker date="1551136366818" expanded="true" signature="124:143" ph="..." />
-                <marker date="1551136366818" expanded="true" signature="787:806" ph="..." />
-                <marker date="1551136366818" expanded="true" signature="874:893" ph="..." />
+                <marker date="1551138568371" expanded="true" signature="42:98" ph="..." />
+                <marker date="1551138568371" expanded="true" signature="161:498" ph="..." />
+                <marker date="1551138568371" expanded="true" signature="568:774" ph="..." />
+                <marker date="1551138568371" expanded="true" signature="791:810" ph="..." />
+                <marker date="1551138568371" expanded="true" signature="1452:1471" ph="..." />
+                <marker date="1551138568371" expanded="true" signature="1539:1558" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1551138116546" expanded="true" signature="164:169" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,8 +121,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Unit Test" />
         <option value="Python Script" />
+        <option value="Python Unit Test" />
       </list>
     </option>
   </component>
@@ -129,6 +172,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py" />
         <option value="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py" />
+        <option value="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py" />
+        <option value="$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py" />
       </list>
     </option>
   </component>
@@ -257,6 +302,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests for PyHashTablePrTest.MyTestCase.test_hash_table" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyHashTable/Probing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;PyHashTablePrTest.MyTestCase.test_hash_table&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Unittests for PySinglyLinkedListTest.MyTestCase.test_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,34 +327,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;PySinglyLinkedListTest.MyTestCase.test_two&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for pyHashTable.Chaining.PyHashTableChTest.MyTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyDataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pyHashTable.Chaining.PyHashTableChTest.MyTestCase&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for pyHashTable.Chaining.PyHashTableChTest.MyTestCase.test_hash_table" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyDataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;pyHashTable.Chaining.PyHashTableChTest.MyTestCase.test_hash_table&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -341,22 +372,36 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Unittests in PyHashTablePrTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyHashTable/Probing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.PyBinaryTree" />
       <item itemvalue="Python tests.Unittests for pyLinkedList.Single.PySinglyLinkedListTest.MyTestCase.test_two" />
-      <item itemvalue="Python tests.Unittests for pyHashTable.Chaining.PyHashTableChTest.MyTestCase" />
       <item itemvalue="Python tests.Unittests in PyHashTableChTest.py" />
-      <item itemvalue="Python tests.Unittests for pyHashTable.Chaining.PyHashTableChTest.MyTestCase.test_hash_table" />
       <item itemvalue="Python tests.Unittests for PySinglyLinkedListTest.MyTestCase.test_two" />
       <item itemvalue="Python tests.Unittests for PyHashTableChTest.MyTestCase.test_hash_table" />
+      <item itemvalue="Python tests.Unittests in PyHashTablePrTest.py" />
+      <item itemvalue="Python tests.Unittests for PyHashTablePrTest.MyTestCase.test_hash_table" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for PyHashTableChTest.MyTestCase.test_hash_table" />
+        <item itemvalue="Python tests.Unittests for PyHashTablePrTest.MyTestCase.test_hash_table" />
+        <item itemvalue="Python tests.Unittests in PyHashTablePrTest.py" />
         <item itemvalue="Python tests.Unittests for PySinglyLinkedListTest.MyTestCase.test_two" />
         <item itemvalue="Python tests.Unittests in PyHashTableChTest.py" />
-        <item itemvalue="Python tests.Unittests for pyHashTable.Chaining.PyHashTableChTest.MyTestCase.test_hash_table" />
-        <item itemvalue="Python tests.Unittests for pyHashTable.Chaining.PyHashTableChTest.MyTestCase" />
       </list>
     </recent_temporary>
   </component>
@@ -374,34 +419,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_PyHashTableTest_py - 2019.02.25 at 14h 53m 13s.xml">
-      <configuration name="Unittests in PyHashTableTest.py" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 48m 16s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pyHashTable_PyHashTableTest_MyTestCase_test_hash_table - 2019.02.25 at 14h 53m 18s.xml">
-      <configuration name="Unittests for pyHashTable.PyHashTableTest.MyTestCase.test_hash_table" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 48m 28s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pyHashTable_PyHashTableTest_MyTestCase_test_hash_table - 2019.02.25 at 14h 54m 42s.xml">
-      <configuration name="Unittests for pyHashTable.PyHashTableTest.MyTestCase.test_hash_table" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 48m 45s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pyHashTable_PyHashTableTest_MyTestCase_test_hash_table - 2019.02.25 at 14h 55m 03s.xml">
-      <configuration name="Unittests for pyHashTable.PyHashTableTest.MyTestCase.test_hash_table" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTablePrTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 49m 28s.xml">
+      <configuration name="Unittests for PyHashTablePrTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pyHashTable_PyHashTableTest_MyTestCase_test_hash_table - 2019.02.25 at 14h 55m 21s.xml">
-      <configuration name="Unittests for pyHashTable.PyHashTableTest.MyTestCase.test_hash_table" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 49m 33s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pyHashTable_PyHashTableTest_MyTestCase_test_hash_table - 2019.02.25 at 14h 55m 41s.xml">
-      <configuration name="Unittests for pyHashTable.PyHashTableTest.MyTestCase.test_hash_table" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 49m 47s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_pyHashTable_PyHashTableTest_MyTestCase_test_hash_table - 2019.02.25 at 14h 56m 07s.xml">
-      <configuration name="Unittests for pyHashTable.PyHashTableTest.MyTestCase.test_hash_table" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 50m 30s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PyHashTableTest_py - 2019.02.25 at 15h 09m 01s.xml">
-      <configuration name="Unittests in PyHashTableTest.py" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 54m 56s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PySinglyLinkedListTest_MyTestCase_test_two - 2019.02.25 at 15h 09m 48s.xml">
-      <configuration name="Unittests for PySinglyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 55m 08s.xml">
+      <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 11m 40s.xml">
+    <history-entry file="Unittests_for_PyHashTableChTest_MyTestCase_test_hash_table - 2019.02.25 at 15h 55m 32s.xml">
       <configuration name="Unittests for PyHashTableChTest.MyTestCase.test_hash_table" configurationId="tests" />
     </history-entry>
   </component>
@@ -409,13 +454,13 @@
     <frame x="585" y="143" width="1860" height="1239" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14763996" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14763996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285068" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.36108598" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.58642536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36108598" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -449,6 +494,25 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/r" />
@@ -567,16 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyLinkedList/Single/PySinglyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1675">
@@ -587,25 +641,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="249">
+          <caret line="241" selection-start-line="241" selection-end-line="241" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="475">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
           <folding>
-            <marker date="1551136366818" expanded="true" signature="42:61" ph="..." />
-            <marker date="1551136366818" expanded="true" signature="124:143" ph="..." />
-            <marker date="1551136366818" expanded="true" signature="787:806" ph="..." />
-            <marker date="1551136366818" expanded="true" signature="874:893" ph="..." />
+            <marker date="1551138568371" expanded="true" signature="42:98" ph="..." />
+            <marker date="1551138568371" expanded="true" signature="161:498" ph="..." />
+            <marker date="1551138568371" expanded="true" signature="568:774" ph="..." />
+            <marker date="1551138568371" expanded="true" signature="791:810" ph="..." />
+            <marker date="1551138568371" expanded="true" signature="1452:1471" ph="..." />
+            <marker date="1551138568371" expanded="true" signature="1539:1558" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePrTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1551138116546" expanded="true" signature="164:169" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableCh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyHashTable/Chaining/PyHashTableChTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
