@@ -98,43 +98,55 @@ class PySet:
     # Returns a set that is the intersection of two sets.
     @staticmethod
     def intersection(set_one, set_two):
-        my_map = {}
-        my_map = PySet._counter(set_one, my_map)
-        my_map = PySet._counter(set_two, my_map)
-        return_set = set()
-        for _ in my_map:
-            if my_map.get(_) > 1:
-                return_set.add(_)
-        return return_set
+        try:
+            my_map = {}
+            my_map = PySet._counter(set_one, my_map)
+            my_map = PySet._counter(set_two, my_map)
+            return_set = set()
+            for _ in my_map:
+                if my_map.get(_) > 1:
+                    return_set.add(_)
+            return return_set
+        except AttributeError as e:
+            print(e)
 
     # Returns whether two sets have an intersection.
     @staticmethod
     def is_disjoint(set_one, set_two):
-        my_map = {}
-        my_map = PySet._counter(set_one, my_map)
-        my_map = PySet._counter(set_two, my_map)
-        for _ in my_map:
-            if my_map.get(_) > 1:
-                return False
-        return True
+        try:
+            my_map = {}
+            my_map = PySet._counter(set_one, my_map)
+            my_map = PySet._counter(set_two, my_map)
+            for _ in my_map:
+                if my_map.get(_) > 1:
+                    return False
+            return True
+        except AttributeError as e:
+            print(e)
 
     # Returns true if the first set is a subset of the second.
     @staticmethod
     def is_subset(set_one, set_two):
-        for _ in set_one.iterate():
-            if _ not in set_two.iterate():
-                return False
-        return True
+        try:
+            for _ in set_one.iterate():
+                if _ not in set_two.iterate():
+                    return False
+            return True
+        except AttributeError as e:
+            print(e)
 
     # Returns a set that is the union of two sets.
     @staticmethod
     def union(set_one, set_two):
-        my_set = set()
-        for _ in set_one.iterate():
-            my_set.add(_)
-        for _ in set_two.iterate():
-            my_set.add(_)
-        return my_set
+        try:
+            my_set = set()
+            for _ in set_one.iterate():
+                my_set.add(_)
+            for _ in set_two.iterate():
+                my_set.add(_)
+            return my_set
+        except AttributeError as e:
+            print(e)
 
     # Helper methods to count the occurrences of each element
     @staticmethod
