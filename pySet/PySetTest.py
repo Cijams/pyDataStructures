@@ -7,7 +7,7 @@ ps2 = PySet.PySet()
 
 
 class MyTestCase(unittest.TestCase):
-    def test_something(self):
+    def test_set(self):
         # Testing add.
         ps1.add(5)
         ps1.add(6)
