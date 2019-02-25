@@ -106,7 +106,9 @@ class PyLinkedList:
             curr = curr.next
 
         for _ in node_map.keys():
-            return True if node_map.get(_) > 1 else False
+            if node_map.get(_) > 1:
+                return True
+        return False
 
     # Removes any detected loops.
     def remove_loop(self):
@@ -116,11 +118,11 @@ class PyLinkedList:
                 slow = slow.next
                 if slow == fast:
                     self.head = slow
-                    temp = self.head.next
+                    fast = self.head.next
 
-                    while temp.next != self.head:
-                        temp = temp.next
-                    temp.next = None
+                    while fast.next != self.head:
+                        fast = fast.next
+                    fast.next = None
 
     # Shift the list by N elements left.
     def rotate(self, shift):
@@ -129,7 +131,8 @@ class PyLinkedList:
             curr = curr.next
         curr.next = self.head
 
-        for _ in range(0, shift+1):
+        curr = self.head
+        for _ in range(shift):
             curr = curr.next
 
         self.head = curr
@@ -139,6 +142,7 @@ class PyLinkedList:
             temp = temp.next
         temp.next = None
 
+    # Turn the linked list into a circular linked list.
     def loopify(self):
         curr = self.head
         while curr.next:

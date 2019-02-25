@@ -33,7 +33,7 @@ class PySet:
         except AttributeError:
             return False
 
-    # Prints the set
+    # Returns the set
     def iterate(self):
         return_set = set()
         curr = self.head
@@ -45,11 +45,17 @@ class PySet:
     # Finds an element in the set and alters the value.
     def change(self, data, mod):
         curr = self.head
-        while curr:
-            if curr.data == data:
-                curr.data = mod
-                break
-            curr = curr.next
+        try:
+            while curr:
+                if curr.data == data:
+                    if self.contains(mod):
+                        raise AttributeError
+                    else:
+                        curr.data = mod
+                        break
+                curr = curr.next
+        except AttributeError:
+            print("Duplicate elements not allowed.")
 
     # Returns the length of the set.
     def length(self):

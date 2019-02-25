@@ -20,5 +20,6 @@ HashTable - Chaining/Probing
 Binary Heap - Min/Max
 Graph
 Map
+Deque
 
 
