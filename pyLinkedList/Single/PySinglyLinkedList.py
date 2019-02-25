@@ -46,7 +46,7 @@ class PyLinkedList:
     def get_last(self):
         return self.head.data
 
-    # Returns a list of the pySinglyLinkedList
+    # Returns a list of the pyLinkedList
     def iterate(self):
         _node_list = []
         curr = self.head

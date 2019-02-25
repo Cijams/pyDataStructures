@@ -1,5 +1,5 @@
 import unittest
-from .PyHashTable import PyHashTable
+from pyHashTable.Chaining.PyHashTableCh import PyHashTable
 
 pt = PyHashTable()
 

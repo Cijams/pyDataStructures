@@ -1,7 +1,6 @@
 import unittest
 import random
-from pySinglyLinkedList import PySinglyLinkedList
-
+from pyLinkedList.Single import PySinglyLinkedList
 
 pl = PySinglyLinkedList.PyLinkedList()
 
