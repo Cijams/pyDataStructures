@@ -13,8 +13,9 @@ class MyTestCase(unittest.TestCase):
         pt.add("hello, chris")
         pt.add(2)
         pt.add(33)
-        pt.get_table()
 
+        self.assertEqual(pt.get_table(), ([], [4], [4.6], [2], [33], [], [], ['hello, chris'], [], [], [], [], [], [],
+                                          ['5'], []))
         self.assertTrue(pt.contains(4))
         self.assertFalse(pt.contains(3))
         self.assertEqual(pt.get(4), 4)
@@ -31,6 +32,7 @@ class MyTestCase(unittest.TestCase):
         pt.add(None)
         pt.add(bool)
         self.assertEqual(pt.table, ([], [], [], [], [], [], [], [], [], [], [], [], [], [], [], []))
+        pt.clear()
 
 
 if __name__ == '__main__':

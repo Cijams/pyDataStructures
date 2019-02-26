@@ -20,11 +20,11 @@ class PyHashTable:
             my_hash = 0
             if type(data) == str or type(data) == chr:
                 for _ in data:
-                    my_hash = (my_hash + ord(_)) % 512
+                    my_hash = (my_hash + ord(_)) % 293
             elif type(data) == int:
-                my_hash = data * 313
+                my_hash = data * 307
             elif type(data) == float:
-                my_hash = int((512 + data) // 10)
+                my_hash = int((89 + data) // 10)
             else:
                 raise AttributeError
             return (~my_hash) * 11 % 16

@@ -1,31 +1,44 @@
-class PyHashTable:
+class PyHashTablePr:
     def __init__(self):
-        self.table = tuple([] for _ in range(16))
+        self.capacity = 16
+        self.table_size = 0
+        self.table = tuple([] for _ in range(self.capacity))
 
     # Adds an element into the hash table.
     def add(self, data):
         try:
-            print(self._hash("e"))
             place = self._hash(data)
-            print("HASH:" + str(place))
             if len(self.table[place]) == 0:
                 self.table[place].append(data)
+                self.table_size += 1
             else:
                 self._collision(data, place)
         except TypeError as e:
             return e
 
+    # Finds the next available spot in the table.
     def _collision(self, data, place):
-        print("Collision detected")
-        inserted = False
-        while inserted:
-            place = place+1
-            if len(self.table[place] == 0):
+        placing = True
+        counter = 0
+        while placing:
+            place = (place+1) % self.capacity
+            if len(self.table[place]) == 0:
                 self.table[place].append(data)
-                inserted = True
+                placing = False
+            counter = counter+1
+            if counter == self.capacity:
+                self.resize()
+                self.add(data)
+                break
 
+    # Resize the table once max capacity is reached.
     def resize(self):
-        pass
+        self.capacity = self.capacity * 2
+        temp = self.table
+        self.table = tuple([] for _ in range(self.capacity))
+
+        for _ in temp:
+            self.add(_[0])
 
     # Hash algorithm for picking where to go.
     @staticmethod
@@ -34,11 +47,11 @@ class PyHashTable:
             my_hash = 0
             if type(data) == str or type(data) == chr:
                 for _ in data:
-                    my_hash = (my_hash + ord(_)) % 512
+                    my_hash = (my_hash + ord(_)) % 293
             elif type(data) == int:
                 my_hash = data * 307 + 3
             elif type(data) == float:
-                my_hash = int((512 + data) // 10)
+                my_hash = int((89 + data) // 10)
             else:
                 raise AttributeError
             return (~my_hash * 11) % 16
@@ -47,7 +60,7 @@ class PyHashTable:
 
     # Retrieves the value from the hash table.
     def get(self, data):
-        pass
+        return self.table[self._hash(data)] # pick up here
 
     # Removes the value from the hash table.
     def remove(self, data):
@@ -63,7 +76,7 @@ class PyHashTable:
 
     # Returns the size of the hash table.
     def get_size(self):
-        pass
+        return self.table_size
 
     # Returns the hash table
     def get_table(self):
