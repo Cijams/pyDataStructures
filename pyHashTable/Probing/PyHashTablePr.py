@@ -36,13 +36,11 @@ class PyHashTablePr:
         self.capacity = self.capacity * 2
         temp = self.table
         self.table = tuple([] for _ in range(self.capacity))
-
         for _ in temp:
             self.add(_[0])
 
     # Hash algorithm for picking where to go.
-    @staticmethod
-    def _hash(data):
+    def _hash(self, data):
         try:
             my_hash = 0
             if type(data) == str or type(data) == chr:
@@ -54,25 +52,57 @@ class PyHashTablePr:
                 my_hash = int((89 + data) // 10)
             else:
                 raise AttributeError
-            return (~my_hash * 11) % 16
+            return (~my_hash * 11) % self.capacity
         except AttributeError as e:
             return e
 
     # Retrieves the value from the hash table.
     def get(self, data):
-        return self.table[self._hash(data)] # pick up here
+        count = 0
+        place = self._hash(data)
+        try:
+            while count <= self.capacity:
+                if self.table[(place + count) % self.capacity][0] == data:
+                    return self.table[(place + count) % self.capacity]
+                else:
+                    count += 1
+            return False
+        except IndexError:
+            return "Table does not contain " + str(data)
 
     # Removes the value from the hash table.
     def remove(self, data):
-        pass
+        count = 0
+        place = self._hash(data)
+        try:
+            while count <= self.capacity:
+                if self.table[(place + count) % self.capacity][0] == data:
+                    del self.table[(place + count) % self.capacity][0]
+                else:
+                    count += 1
+            return False
+        except IndexError:
+            return "Table does not contain " + str(data)
 
     # Removes all data from the hash table.
     def clear(self):
-        self.table = None
+        self.capacity = 16
+        self.table_size = 0
+        self.table = tuple([] for _ in range(self.capacity))
 
     # Returns True if the vale is within the hash table.
     def contains(self, data):
-        pass
+        count = 0
+        place = self._hash(data)
+        try:
+            while count <= self.capacity:
+                if self.table[(place + count) % self.capacity][0] == data:
+                    return True
+                else:
+                    count += 1
+            return False
+        except IndexError:
+            return False
 
     # Returns the size of the hash table.
     def get_size(self):

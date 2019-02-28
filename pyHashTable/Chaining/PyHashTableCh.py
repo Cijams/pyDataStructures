@@ -1,6 +1,7 @@
 class PyHashTable:
     def __init__(self):
-        self.table = tuple([] for _ in range(16))
+        self.capacity = 64
+        self.table = tuple([] for _ in range(self.capacity))
         self.size = 0
 
     # Adds an element into the hash table.
@@ -14,20 +15,19 @@ class PyHashTable:
             return e
 
     # Hash algorithm for picking where to go.
-    @staticmethod
-    def _hash(data):
+    def _hash(self, data):
         try:
             my_hash = 0
             if type(data) == str or type(data) == chr:
-                for _ in data:
-                    my_hash = (my_hash + ord(_)) % 293
+                for e in data:
+                    my_hash = (my_hash + ord(e)) % 293
             elif type(data) == int:
                 my_hash = data * 307
             elif type(data) == float:
                 my_hash = int((89 + data) // 10)
             else:
                 raise AttributeError
-            return (~my_hash) * 11 % 16
+            return (~my_hash) * 11 % self.capacity
         except AttributeError as e:
             return e
 
@@ -53,7 +53,7 @@ class PyHashTable:
 
     # Removes all data from the hash table.
     def clear(self):
-        self.table = tuple([] for _ in range(16))
+        self.table = tuple([] for _ in range(self.capacity))
 
     # Returns True if the vale is within the hash table.
     def contains(self, data):
