@@ -14,6 +14,7 @@ __________________________________________
 In Progress:
 
 Binary Search Tree - All ops.
+
 DoublyLinkedLists
 Priority Queue
 Binary Heap - Min/Max

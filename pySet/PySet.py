@@ -1,6 +1,21 @@
+"""
+Christopher Ijams
+Set
+Unordered collection of objects with no duplicates.
+"""
+
+
 class PySet:
     def __init__(self, head=None):
         self.head = head
+
+    def __str__(self):
+        curr = self.head
+        definition = ""
+        while curr:
+            definition += str(curr.data) + ", "
+            curr = curr.next
+        return "{" + definition[:-2] + "}"
 
     # Adds an element to the set.
     def add(self, data=None):
@@ -55,7 +70,7 @@ class PySet:
                         break
                 curr = curr.next
         except AttributeError:
-            print("Duplicate elements not allowed.")
+            return "Duplicate elements not allowed."
 
     # Returns the length of the set.
     def length(self):

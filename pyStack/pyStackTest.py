@@ -16,7 +16,6 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(ps.peek(), (4, 2))
         ps.push("Go")
         self.assertEqual(ps.peek(), "Go")
-
         ps.pop()
 
     def test_pop(self):
@@ -52,6 +51,12 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(ps.size(), 15)
         ps.clear()
         self.assertEqual(ps.size(), 0)
+
+    def test_str(self):
+        ps.clear()
+        for x in range(15):
+            ps.push(x)
+        self.assertTrue(True, True)
 
 
 if __name__ == '__main__':

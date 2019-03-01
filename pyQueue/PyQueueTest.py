@@ -43,6 +43,12 @@ class MyTestCase(unittest.TestCase):
         pq.clear()
         self.assertEqual(pq.size(), 0)
 
+    def test_str(self):
+        pq.clear()
+        for x in range(15):
+            pq.push(x)
+        self.assertEqual(True, True)
+
 
 if __name__ == '__main__':
     unittest.main()

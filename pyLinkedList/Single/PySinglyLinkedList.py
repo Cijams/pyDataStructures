@@ -1,6 +1,21 @@
+"""
+Christopher Ijams
+Singly Linked List
+Linear, single pointer data structure of non-contiguous memory location.
+"""
+
+
 class PyLinkedList:
     def __init__(self, head=None):
         self.head = head
+
+    def __str__(self):
+        curr = self.head
+        definition = ""
+        while curr:
+            definition += str(curr.data) + ", "
+            curr = curr.next
+        return definition[:-2]
 
     # Add an element to the list.
     def add(self, data=None):

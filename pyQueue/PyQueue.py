@@ -1,6 +1,20 @@
+"""
+Christopher Ijams
+Queue
+Linear data structure ordered by first in first out methodology.
+"""
+
+
 class PyQueue:
     def __init__(self):
         self.queue = []
+
+    def __str__(self):
+        definition = ""
+        for e in range(len(self.queue)):
+            definition += str(self.queue[e])
+            definition += ", "
+        return definition[:-2]
 
     # Push an item onto the queue.
     def push(self, item):

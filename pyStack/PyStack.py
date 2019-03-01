@@ -1,6 +1,20 @@
+"""
+Christopher Ijams 2019
+Stack
+Linear data structure ordered by last in first out methodology.
+"""
+
+
 class PyStack:
     def __init__(self):
         self.stack = []
+
+    def __str__(self):
+        definition = ""
+        for e in range(len(self.stack)):
+            definition += str(self.stack[e])
+            definition += ", "
+        return definition[:-2]
 
     # Push an item onto the stack.
     def push(self, item):

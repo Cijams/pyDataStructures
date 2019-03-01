@@ -1,8 +1,18 @@
+"""
+Christopher Ijams
+Hash Map - Probing
+Direct index hash lookup data structure for mapping key value pairs.
+"""
+
+
 class PyHashTablePr:
     def __init__(self):
         self.capacity = 16
         self.table_size = 0
         self.table = tuple([] for _ in range(self.capacity))
+
+    def __str__(self):
+        return str(self.table)
 
     # Adds an element into the hash table.
     def add(self, data):

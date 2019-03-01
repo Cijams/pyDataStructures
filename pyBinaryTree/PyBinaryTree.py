@@ -1,7 +1,18 @@
+"""
+Christopher Ijams
+Binary Tree
+Node based tree data structure of two elements each.
+"""
+
+
 class PyBinaryTree:
     def __init__(self, head=None):
         self.head = head
         self._order = []
+
+    def __str__(self):
+        definition = self.pre_order_traversal()
+        return str(definition)
 
     # Insert first Node or call main method.
     def insert(self, data=None):

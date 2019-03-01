@@ -44,14 +44,17 @@ class MyTestCase(unittest.TestCase):
 
         bt.insert(0)
         bt.insert(100)
-"""
+        print(bt)
+
+        """
         bt.insert(0)
         bt.insert(100)
 
         self.assertEqual(bt.height(), 5)
         self.assertEqual(bt.min(), 0)
         self.assertEqual(bt.max(), 100)
-"""
+        """
+
 
 if __name__ == '__main__':
     unittest.main()

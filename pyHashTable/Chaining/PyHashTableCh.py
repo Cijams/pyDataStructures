@@ -1,8 +1,18 @@
+"""
+Christopher Ijams
+Hash Map - Chaining
+Direct index hash lookup data structure for mapping key value pairs.
+"""
+
+
 class PyHashTable:
     def __init__(self):
         self.capacity = 64
         self.table = tuple([] for _ in range(self.capacity))
         self.size = 0
+
+    def __str__(self):
+        return str(self.table)
 
     # Adds an element into the hash table.
     def add(self, data):

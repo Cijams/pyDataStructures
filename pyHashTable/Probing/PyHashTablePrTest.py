@@ -58,7 +58,5 @@ class MyTestCase(unittest.TestCase):
         self.assertFalse(pt.contains(2), False)
 
 
-
-
 if __name__ == '__main__':
     unittest.main()
