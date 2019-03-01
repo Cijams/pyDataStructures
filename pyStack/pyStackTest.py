@@ -47,7 +47,7 @@ class MyTestCase(unittest.TestCase):
     def test_clear(self):
         ps.clear()
         for x in range(0, 15):
-            ps.push(random.randint(0, 100))
+            ps.push(random.randint(0, 101))
         self.assertEqual(ps.size(), 15)
         ps.clear()
         self.assertEqual(ps.size(), 0)

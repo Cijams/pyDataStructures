@@ -1,5 +1,4 @@
 import unittest
-import random
 from pyMap import PyMap
 
 
