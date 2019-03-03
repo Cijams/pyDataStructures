@@ -90,6 +90,20 @@ class MyTestCase(unittest.TestCase):
         ps1.change(2, 1)
         self.assertEqual(ps1.iterate(), {1, 2, 7})
 
+        ps1.clear()
+        ps2.clear()
+
+        for x in range(0, 10, 2):
+            ps1.add(x)
+        for x in range(0, 15, 3):
+            ps2.add(x)
+        ps2.add(18)
+
+        ps3 = ps1 + ps2
+        self.assertEqual(ps.size(ps3), 9)
+        self.assertTrue(ps2 > ps1)
+        self.assertTrue(ps1 < ps2)
+
 
 if __name__ == '__main__':
     unittest.main()

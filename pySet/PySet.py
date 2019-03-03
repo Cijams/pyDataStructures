@@ -17,6 +17,52 @@ class PySet:
             curr = curr.next
         return "{" + definition[:-2] + "}"
 
+    # Add two sets together - Union
+    def __add__(self, set_one):
+        try:
+            temp = self.iterate()
+            print(temp)
+            my_set = set()
+            for _ in temp:
+                my_set.add(_)
+            for _ in set_one.iterate():
+                my_set.add(_)
+            return my_set
+        except AttributeError as e:
+            print(e)
+
+    def __gt__(self, other):
+        temp = self.iterate()
+        temp2 = other.iterate()
+        if self.size(temp) > self.size(temp2):
+            return True
+        return False
+
+    def __eq__(self, other):
+        pass
+
+    def __sub__(self, other):
+        pass
+
+    def __lt__(self, other):
+        temp = self.iterate()
+        temp2 = other.iterate()
+        if self.size(temp) < self.size(temp2):
+            return True
+        return False
+
+
+    # Returns the size of the set
+    @staticmethod
+    def size(curr):
+        count = 0
+        try:
+            for _ in curr:
+                count += 1
+            return count
+        except TypeError:
+            return "Pass the head of the set."
+
     # Adds an element to the set.
     def add(self, data=None):
         if not self.contains(data):
