@@ -21,36 +21,41 @@ class PySet:
     def __add__(self, set_one):
         try:
             temp = self.iterate()
-            print(temp)
             my_set = set()
             for _ in temp:
                 my_set.add(_)
             for _ in set_one.iterate():
                 my_set.add(_)
             return my_set
-        except AttributeError as e:
-            print(e)
+        except TypeError as e:
+            return e
 
-    def __gt__(self, other):
-        temp = self.iterate()
-        temp2 = other.iterate()
-        if self.size(temp) > self.size(temp2):
-            return True
-        return False
-
+    # Returns true if both sets are of equal size.
     def __eq__(self, other):
-        pass
+        try:
+            my_set = self.iterate()
+            other_set = other.iterate()
+            return True if self.size(my_set) == self.size(other_set) else False
+        except TypeError as e:
+            return e
 
-    def __sub__(self, other):
-        pass
+    # Returns True if the first set is larger than the second.
+    def __gt__(self, other):
+        try:
+            my_set = self.iterate()
+            other_set = other.iterate()
+            return True if self.size(my_set) > self.size(other_set) else False
+        except TypeError as e:
+            return e
 
+    # Returns True if the first set is smaller than the second.
     def __lt__(self, other):
-        temp = self.iterate()
-        temp2 = other.iterate()
-        if self.size(temp) < self.size(temp2):
-            return True
-        return False
-
+        try:
+            my_set = self.iterate()
+            other_set = other.iterate()
+            return True if self.size(my_set) < self.size(other_set) else False
+        except TypeError as e:
+            return e
 
     # Returns the size of the set
     @staticmethod

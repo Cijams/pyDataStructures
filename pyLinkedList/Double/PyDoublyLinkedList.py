@@ -119,9 +119,6 @@ class PyDoublyLinkedList:
                 print(curr.data)
                 curr = curr.prev
 
-
-
-
     # Node class for data storage with pointers for next and previous values.
     class _Node:
         def __init__(self, data=None, next_node=None, prev_node=None):
