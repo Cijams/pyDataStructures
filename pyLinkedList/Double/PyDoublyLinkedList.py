@@ -111,13 +111,14 @@ class PyDoublyLinkedList:
     # Reverses the linked list.
     def reverse(self):
         curr = self.head
+        temp = None
         if curr:
-            while curr.next:
-                temp = curr.next
-                curr.next = curr.prev
-                curr.prev = temp
-                print(curr.data)
+            while curr:
+                temp = curr.prev
+                curr.prev = curr.next
+                curr.next = temp
                 curr = curr.prev
+            self.head = temp.prev
 
     # Node class for data storage with pointers for next and previous values.
     class _Node:

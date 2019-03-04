@@ -31,7 +31,11 @@ class MyTestCase(unittest.TestCase):
         pd.clear()
 
         print("HERE IS START OF REVERSE______")
+        for e in range(1, 6):
+            pd.add(e)
+        print("before reverse: " + str(pd))
         pd.reverse()
+        print("after reverse: " + str(pd))
 
 
 if __name__ == '__main__':
