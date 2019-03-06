@@ -6,7 +6,6 @@ A linear generalization of stack and queue functionality combined.
 
 
 class PyDeque:
-
     def __init__(self, max_length=0):
         self.deque = []
         self.limited = False
