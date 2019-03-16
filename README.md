@@ -13,13 +13,13 @@ HashTable - Chaining and Probing
 
 __________________________________________
 
-In Progress: Graph
+In Progress: Binary Heap - Min/Max
 
 Binary Search Tree - Finish ops
 RB Tree
 
 Priority Queue
-Binary Heap - Min/Max
+Graph
 
 Matrix
 
