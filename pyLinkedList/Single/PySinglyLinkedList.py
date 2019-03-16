@@ -106,7 +106,10 @@ class PyLinkedList:
     # Changes the data in a specified _node in the list.
     def modify__node(self, index, data):
         mod = self.get(index)
-        mod.data = data
+        if mod:
+            mod.data = data
+            return True
+        return False
 
     # Detects loops in the list.
     def detect_loop(self):
@@ -115,14 +118,10 @@ class PyLinkedList:
 
         while curr:
             if node_map.get(curr):
-                node_map[curr] = node_map[curr]+1
+                return True
             else:
                 node_map[curr] = 1
             curr = curr.next
-
-        for _ in node_map.keys():
-            if node_map.get(_) > 1:
-                return True
         return False
 
     # Removes any detected loops.

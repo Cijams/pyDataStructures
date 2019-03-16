@@ -88,6 +88,8 @@ class MyTestCase(unittest.TestCase):
         pl.loopify()
         pl.remove_loop()
         self.assertEqual(pl.iterate(), [1, 2, 3, 4, 5, 6])
+        print(pl)
+        pl.modify__node(500000000, 50000000000)
 
 
 if __name__ == '__main__':
