@@ -86,14 +86,13 @@ class PyDoublyLinkedList:
         if self.size() == 1:
             self.head = None
         else:
-            if curr:
-                while curr:
-                    if curr.data == data:
-                        if curr.prev:
-                            curr.prev.next = curr.next
-                        if curr.next:
-                            curr.next.prev = curr.prev
-                    curr = curr.next
+            while curr:
+                if curr.data == data:
+                    if curr.prev:
+                        curr.prev.next = curr.next
+                    if curr.next:
+                        curr.next.prev = curr.prev
+                curr = curr.next
 
     # Returns the approximate middle of the list.
     def middle(self):

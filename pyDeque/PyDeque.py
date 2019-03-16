@@ -34,13 +34,14 @@ class PyDeque:
     def append_left(self, data):
         if self.limited:
             if self.count() < self.max_length:
-                self.deque.reverse()
-                self.append(data)
-                self.deque.reverse()
+                self._append(data)
         else:
-            self.deque.reverse()
-            self.append(data)
-            self.deque.reverse()
+            self._append(data)
+
+    def _append(self, data):
+        self.deque.reverse()
+        self.append(data)
+        self.deque.reverse()
 
     # Clears the deque of all values.
     def clear(self):
@@ -76,7 +77,7 @@ class PyDeque:
             if self.limited:
                 self.max_length += size
         else:
-            return "extend only accepts an integer"
+            return "extend only accepts an integer."
 
     # Reverses the elements in the deque
     def reverse(self):
@@ -96,6 +97,6 @@ class PyDeque:
                 self.deque = temp_deque
 
 
-# Raised when user tries to add to many elements into a limited Deque
+# Raised when user tries to add to many elements into a limited Deque.
 class DequeFull(Exception):
     Message = "Deque is at capacity"

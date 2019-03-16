@@ -133,7 +133,7 @@ class PyLinkedList:
                 if slow == fast:
                     self.head = slow
                     fast = self.head.next
-
+                    # Loop back around until new head is encountered, set next to None.
                     while fast.next != self.head:
                         fast = fast.next
                     fast.next = None
