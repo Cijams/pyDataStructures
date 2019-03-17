@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,14 +27,14 @@
         <counts>
           <entry key="PyPriorityQueue" value="2" />
           <entry key="md" value="16" />
-          <entry key="py" value="196" />
+          <entry key="py" value="199" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="16" />
-          <entry key="Python" value="200" />
+          <entry key="Python" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -44,7 +42,7 @@
           <entry key="PyPriorityQueue" value="64" />
           <entry key="dummy" value="17" />
           <entry key="md" value="574" />
-          <entry key="py" value="46839" />
+          <entry key="py" value="47224" />
           <entry key="r" value="12" />
           <entry key="txt" value="34" />
         </counts>
@@ -53,56 +51,31 @@
         <counts>
           <entry key="Markdown" value="574" />
           <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="46915" />
+          <entry key="Python" value="47300" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pyHeap/pyMinHeap/PyMinHeap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <marker date="1552766561793" expanded="true" signature="159:164" ph="..." />
-                <marker date="1552766561793" expanded="true" signature="183:281" ph="..." />
-                <marker date="1552766561793" expanded="true" signature="299:380" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="300">
-                <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="-225">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
               <folding>
-                <marker date="1552774933080" expanded="true" signature="17:22" ph="..." />
+                <marker date="1552775823465" expanded="true" signature="957:963" ph="..." />
+                <marker date="1552775823465" expanded="true" signature="1217:1223" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state relative-caret-position="400">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -197,16 +170,16 @@
         <option value="$PROJECT_DIR$/pyDeque/PyDeque.py" />
         <option value="$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" />
         <option value="$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py" />
+        <option value="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
-    <option name="y" value="106" />
-    <option name="width" value="1858" />
-    <option name="height" value="1226" />
+    <option name="x" value="32767" />
+    <option name="y" value="32767" />
+    <option name="width" value="3460" />
+    <option name="height" value="1460" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -245,6 +218,12 @@
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
               <item name="pyLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="pyLinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="Double" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -298,7 +277,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for PySkipListTest.MyTestCase.test_something">
+  <component name="RunManager" selected="Python tests.Unittests in PySkipListTest.py">
     <configuration name="PyBinaryTree" type="PythonConfigurationType" factoryName="Python">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -390,36 +369,36 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in PyBinaryTreeTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in PySkipListTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyBinaryTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyLinkedList/Skip" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyBinaryTree/PyBinaryTreeTest.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python.PyBinaryTree" />
       <item itemvalue="Python tests.Unittests for pyLinkedList.Single.PySinglyLinkedListTest.MyTestCase.test_two" />
-      <item itemvalue="Python tests.Unittests in PyBinaryTreeTest.py" />
       <item itemvalue="Python tests.Unittests for PySinglyLinkedListTest.MyTestCase.test_two" />
       <item itemvalue="Python tests.Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" />
       <item itemvalue="Python tests.Unittests for PyDequeTest.MyTestCase.test_deque" />
       <item itemvalue="Python tests.Unittests for PySkipListTest.MyTestCase.test_something" />
+      <item itemvalue="Python tests.Unittests in PySkipListTest.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests in PySkipListTest.py" />
         <item itemvalue="Python tests.Unittests for PySkipListTest.MyTestCase.test_something" />
         <item itemvalue="Python tests.Unittests for PyDequeTest.MyTestCase.test_deque" />
         <item itemvalue="Python tests.Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" />
         <item itemvalue="Python tests.Unittests for PySinglyLinkedListTest.MyTestCase.test_two" />
-        <item itemvalue="Python tests.Unittests in PyBinaryTreeTest.py" />
       </list>
     </recent_temporary>
   </component>
@@ -445,15 +424,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_PyBinaryTreeTest_py - 2019.03.16 at 13h 38m 55s.xml">
-      <configuration name="Unittests in PyBinaryTreeTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PySinglyLinkedListTest_MyTestCase_test_two - 2019.03.16 at 13h 40m 15s.xml">
-      <configuration name="Unittests for PySinglyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PySinglyLinkedListTest_MyTestCase_test_two - 2019.03.16 at 13h 40m 27s.xml">
-      <configuration name="Unittests for PySinglyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_PySinglyLinkedListTest_MyTestCase_test_two - 2019.03.16 at 13h 41m 06s.xml">
       <configuration name="Unittests for PySinglyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
     </history-entry>
@@ -475,17 +445,26 @@
     <history-entry file="Unittests_for_PySkipListTest_MyTestCase_test_something - 2019.03.16 at 15h 22m 13s.xml">
       <configuration name="Unittests for PySkipListTest.MyTestCase.test_something" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_PySkipListTest_py - 2019.03.16 at 15h 26m 57s.xml">
+      <configuration name="Unittests in PySkipListTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PySkipListTest_py - 2019.03.16 at 15h 27m 11s.xml">
+      <configuration name="Unittests in PySkipListTest.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_PySkipListTest_py - 2019.03.16 at 15h 27m 56s.xml">
+      <configuration name="Unittests in PySkipListTest.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="106" width="1858" height="1226" extended-state="0" />
+    <frame x="32767" y="32767" width="3460" height="1460" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1956044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.10403273" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285068" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29029304" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23906486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -699,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyLinkedList/Single/PySinglyLinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="180" column="17" lean-forward="true" selection-start-line="180" selection-start-column="17" selection-end-line="180" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyLinkedList/Single/PySinglyLinkedListTest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2027">
@@ -723,13 +695,6 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyLinkedList/Double/PyDoublyLinkedList.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -803,22 +768,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py">
+    <entry file="file://$PROJECT_DIR$/pyLinkedList/Double/PyDoublyLinkedList.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1552774933080" expanded="true" signature="17:22" ph="..." />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="20" selection-start-line="20" selection-end-line="29" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyLinkedList/Single/PySinglyLinkedList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="400">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding>
+            <marker date="1552775823465" expanded="true" signature="957:963" ph="..." />
+            <marker date="1552775823465" expanded="true" signature="1217:1223" ph="..." />
           </folding>
         </state>
       </provider>
