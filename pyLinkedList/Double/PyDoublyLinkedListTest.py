@@ -37,6 +37,8 @@ class MyTestCase(unittest.TestCase):
         pd.reverse()
         print("after reverse: " + str(pd))
 
+        pd.clear()
+
 
 if __name__ == '__main__':
     unittest.main()
