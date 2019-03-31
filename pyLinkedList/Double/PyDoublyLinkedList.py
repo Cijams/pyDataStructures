@@ -119,9 +119,65 @@ class PyDoublyLinkedList:
                 curr = curr.prev
             self.head = temp.prev
 
+    # Deletes the middle node of the list.
+    def delete_middle_node(self):
+        slow = fast = self.head
+        while fast and fast.next:
+            fast = fast.next.next
+            slow = slow.next
+        if slow.prev:
+            slow.prev.next = slow.next
+            slow.next.prev = slow.prev
+
+    # Returns the kth to last element in the list.
+    def return_kth_to_last_element(self, k):
+        length = 0
+        curr = self.head
+        while curr:
+            curr = curr.next
+            length += 1
+        curr = self.head
+        index = 0
+        length = length-k
+        try:
+            while index != length:
+                curr = curr.next
+                index += 1
+        except AttributeError as e:
+            return e
+        return curr.data
+
+    # Removes any duplicates from the list.
+    def remove_duplicates(self):
+        hs = set()
+        curr = self.head
+        while curr:
+            if curr.data in hs:
+                self.remove(curr.data)
+            else:
+                hs.add(curr.data)
+            curr = curr.next
+
+    # Returns True if the linked list is a palindrome.
+    def is_palindrome(self):
+        start = end = self.head
+        while end.next:
+            end = end.next
+
+        while start:
+            if start.data != end.data:
+                return False
+            start = start.next
+            end = end.prev
+        return True
+
     # Node class for data storage with pointers for next and previous values.
     class _Node:
         def __init__(self, data=None, next_node=None, prev_node=None):
             self.data = data
             self.next = next_node
             self.prev = prev_node
+
+
+class NotInListError(Exception):
+    print("This value is not in the list")
