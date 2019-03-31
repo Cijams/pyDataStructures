@@ -16,11 +16,10 @@ __________________________________________
 In Progress: Binary Heap - Min/Max
 
 Binary Search Tree - Finish ops
-RB Tree
 
 Priority Queue
-Graph
 
+Graph
 Matrix
 
 Cache-

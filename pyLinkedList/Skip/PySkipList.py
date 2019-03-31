@@ -23,16 +23,13 @@ class PySkipList:
         if not self.head:
             self.head = self._Node(data)
         else:
-            curr = self.head
-            while curr.next:
-                curr = curr.next
-            curr.next = self._Node(data)
-        self.sort()
-        self.express()
+            prev = self.head
+            curr = self.head.next
+            while curr:
+                if curr.data < data:
+                    prev = prev.next
+                    curr = curr.next
 
-    # Ensures the skipList maintains order
-    def sort(self):
-        pass
 
     # enforces express lane rules for optimal look up.
     def express(self):
