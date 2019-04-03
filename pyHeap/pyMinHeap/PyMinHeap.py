@@ -20,10 +20,6 @@ class PyMinHeap:
         pass
         self.size -= 1
 
-    #
-    def decrease_key(self):
-        pass
-
     # Inserts a value into the heap.
     def insert(self, data):
         pass
@@ -44,6 +40,10 @@ class PyMinHeap:
 
     # Uses heapify on the heap to sort all of the data.
     def heap_sort(self):
+        pass
+
+    # Builds a heap out of a list.
+    def build_heap(self):
         pass
 
     # Returns the left child of the node.
