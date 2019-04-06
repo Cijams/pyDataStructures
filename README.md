@@ -21,7 +21,7 @@ Priority Queue
 
 Graph
 Matrix
-
+Trie
 Cache-
 LRU
 MRU
