@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d31ca51f-34e7-4043-a28e-0b8eed7326ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Chris.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Chris.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyGraph/PyGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyGraph/PyGraph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyGraph/PyGraphTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyGraph/PyGraphTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyLinkedList/Skip/PySkipList.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,26 +18,26 @@
     <session id="1422906102">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="7" />
+          <entry key="project.open.time.3" value="8" />
           <entry key="project.open.time.4" value="6" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="PyPriorityQueue" value="2" />
           <entry key="md" value="17" />
-          <entry key="py" value="201" />
+          <entry key="py" value="202" />
           <entry key="r" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="17" />
-          <entry key="Python" value="205" />
+          <entry key="Python" value="206" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -45,7 +45,7 @@
           <entry key="PyPriorityQueue" value="64" />
           <entry key="dummy" value="17" />
           <entry key="md" value="575" />
-          <entry key="py" value="47836" />
+          <entry key="py" value="50064" />
           <entry key="r" value="12" />
           <entry key="txt" value="34" />
         </counts>
@@ -54,33 +54,35 @@
         <counts>
           <entry key="Markdown" value="575" />
           <entry key="PLAIN_TEXT" value="51" />
-          <entry key="Python" value="47912" />
+          <entry key="Python" value="50140" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pyGraph/PyGraph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+            <state relative-caret-position="1475">
+              <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
               <folding>
-                <marker date="1554004541876" expanded="true" signature="206:212" ph="..." />
-                <marker date="1554004541876" expanded="true" signature="527:529" ph="..." />
-                <marker date="1554004541876" expanded="true" signature="545:550" ph="..." />
-                <marker date="1554004541876" expanded="true" signature="579:588" ph="..." />
+                <marker date="1554084752648" expanded="true" signature="384:654" ph="..." />
+                <marker date="1554084752648" expanded="true" signature="810:815" ph="..." />
+                <marker date="1554084752648" expanded="true" signature="843:985" ph="..." />
+                <marker date="1554084752648" expanded="true" signature="1205:1211" ph="..." />
+                <marker date="1554084752648" expanded="true" signature="1348:1459" ph="..." />
+                <marker date="1554084752648" expanded="true" signature="1486:1495" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pyGraph/PyGraphTest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="339">
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -181,10 +183,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="269" />
-    <option name="y" value="164" />
-    <option name="width" value="2151" />
-    <option name="height" value="1123" />
+    <option name="x" value="286" />
+    <option name="y" value="424" />
+    <option name="width" value="2090" />
+    <option name="height" value="1246" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -217,6 +219,11 @@
             <path>
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
               <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pyDataStructures" type="462c0819:PsiDirectoryNode" />
+              <item name="pyDeque" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pyDataStructures" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in PyGraphTest.py">
+  <component name="RunManager" selected="Python tests.Unittests for PyGraphTest.MyTestCase.test_bfs">
     <configuration name="PyBinaryTree" type="PythonConfigurationType" factoryName="Python">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,45 +293,66 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for PyDequeTest.MyTestCase.test_deque" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="PyGraph" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pyDataStructures" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyGraph" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyGraph/PyGraph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyDeque" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyGraph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PyDequeTest.MyTestCase.test_deque&quot;" />
+      <option name="_new_target" value="&quot;PyGraphTest.MyTestCase.test_bfs&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for PyGraphTest.MyTestCase.test_graph" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyLinkedList/Double" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyGraph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list&quot;" />
+      <option name="_new_target" value="&quot;PyGraphTest.MyTestCase.test_graph&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for PySkipListTest.MyTestCase.test_something" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for PyGraphTest.MyTestCase.test_paths" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="pyDataStructures" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyLinkedList/Skip" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyGraph" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PySkipListTest.MyTestCase.test_something&quot;" />
+      <option name="_new_target" value="&quot;PyGraphTest.MyTestCase.test_paths&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -356,36 +384,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in PySkipListTest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="pyDataStructures" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/pyLinkedList/Skip" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/pyLinkedList/Skip/PySkipListTest.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.PyBinaryTree" />
       <item itemvalue="Python tests.Unittests for pyLinkedList.Single.PySinglyLinkedListTest.MyTestCase.test_two" />
-      <item itemvalue="Python tests.Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" />
-      <item itemvalue="Python tests.Unittests for PyDequeTest.MyTestCase.test_deque" />
-      <item itemvalue="Python tests.Unittests for PySkipListTest.MyTestCase.test_something" />
-      <item itemvalue="Python tests.Unittests in PySkipListTest.py" />
       <item itemvalue="Python tests.Unittests in PyGraphTest.py" />
+      <item itemvalue="Python tests.Unittests for PyGraphTest.MyTestCase.test_graph" />
+      <item itemvalue="Python.PyGraph" />
+      <item itemvalue="Python tests.Unittests for PyGraphTest.MyTestCase.test_paths" />
+      <item itemvalue="Python tests.Unittests for PyGraphTest.MyTestCase.test_bfs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for PyGraphTest.MyTestCase.test_bfs" />
+        <item itemvalue="Python.PyGraph" />
         <item itemvalue="Python tests.Unittests in PyGraphTest.py" />
-        <item itemvalue="Python tests.Unittests in PySkipListTest.py" />
-        <item itemvalue="Python tests.Unittests for PySkipListTest.MyTestCase.test_something" />
-        <item itemvalue="Python tests.Unittests for PyDequeTest.MyTestCase.test_deque" />
-        <item itemvalue="Python tests.Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" />
+        <item itemvalue="Python tests.Unittests for PyGraphTest.MyTestCase.test_paths" />
+        <item itemvalue="Python tests.Unittests for PyGraphTest.MyTestCase.test_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -411,48 +425,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_PySinglyLinkedListTest_MyTestCase_test_two - 2019.03.16 at 13h 57m 04s.xml">
-      <configuration name="Unittests for PySinglyLinkedListTest.MyTestCase.test_two" configurationId="tests" />
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 18h 58m 30s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PyDoublyLinkedListTest_MyTestCase_test_doubly_linked_list - 2019.03.16 at 14h 15m 10s.xml">
-      <configuration name="Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" configurationId="tests" />
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 18h 58m 56s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_PyDoublyLinkedListTest_MyTestCase_test_doubly_linked_list - 2019.03.16 at 14h 15m 26s.xml">
-      <configuration name="Unittests for PyDoublyLinkedListTest.MyTestCase.test_doubly_linked_list" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PyDequeTest_MyTestCase_test_deque - 2019.03.16 at 14h 41m 33s.xml">
-      <configuration name="Unittests for PyDequeTest.MyTestCase.test_deque" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_PySkipListTest_MyTestCase_test_something - 2019.03.16 at 15h 22m 13s.xml">
-      <configuration name="Unittests for PySkipListTest.MyTestCase.test_something" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PySkipListTest_py - 2019.03.16 at 15h 26m 57s.xml">
-      <configuration name="Unittests in PySkipListTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PySkipListTest_py - 2019.03.16 at 15h 27m 11s.xml">
-      <configuration name="Unittests in PySkipListTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PySkipListTest_py - 2019.03.16 at 15h 27m 56s.xml">
-      <configuration name="Unittests in PySkipListTest.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_PyGraphTest_py - 2019.03.30 at 20h 46m 33s.xml">
+    <history-entry file="Unittests_in_PyGraphTest_py - 2019.03.31 at 19h 01m 27s.xml">
       <configuration name="Unittests in PyGraphTest.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_PyGraphTest_py - 2019.03.30 at 20h 54m 33s.xml">
-      <configuration name="Unittests in PyGraphTest.py" configurationId="tests" />
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 02m 20s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 02m 58s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 03m 05s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 06m 34s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 06m 40s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 08m 18s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_PyGraphTest_MyTestCase_test_bfs - 2019.03.31 at 19h 12m 35s.xml">
+      <configuration name="Unittests for PyGraphTest.MyTestCase.test_bfs" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="269" y="164" width="2151" height="1123" extended-state="0" />
-    <editor active="true" />
+    <frame x="286" y="424" width="2090" height="1246" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16848083" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17348927" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285068" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.23862487" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36923078" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4577338" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36870503" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -672,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyDeque/PyDeque.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pyHashTable/Probing/PyHashTablePr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-123">
@@ -725,9 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,32 +748,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyDeque/PyDeque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyGraph/PyGraph.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1475">
+          <caret line="59" column="22" selection-start-line="59" selection-start-column="22" selection-end-line="59" selection-end-column="22" />
           <folding>
-            <marker date="1552866186139" expanded="true" signature="904:910" ph="..." />
-            <marker date="1552866186139" expanded="true" signature="1164:1170" ph="..." />
+            <marker date="1554084752648" expanded="true" signature="384:654" ph="..." />
+            <marker date="1554084752648" expanded="true" signature="810:815" ph="..." />
+            <marker date="1554084752648" expanded="true" signature="843:985" ph="..." />
+            <marker date="1554084752648" expanded="true" signature="1205:1211" ph="..." />
+            <marker date="1554084752648" expanded="true" signature="1348:1459" ph="..." />
+            <marker date="1554084752648" expanded="true" signature="1486:1495" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyGraph/PyGraphTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="339">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyGraph/PyGraph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
-          <folding>
-            <marker date="1554004541876" expanded="true" signature="206:212" ph="..." />
-            <marker date="1554004541876" expanded="true" signature="527:529" ph="..." />
-            <marker date="1554004541876" expanded="true" signature="545:550" ph="..." />
-            <marker date="1554004541876" expanded="true" signature="579:588" ph="..." />
           </folding>
         </state>
       </provider>
